@@ -1,19 +1,454 @@
-2024-09-16 16:15:06,273 - INFO - Опит за зареждане на конфигурацията от config.json
-2024-09-16 16:15:06,274 - INFO - Конфигурацията е заредена успешно.
-2024-09-16 16:22:38,918 - INFO - Опит за зареждане на конфигурацията от config.json
-2024-09-16 16:22:38,918 - INFO - Конфигурацията е заредена успешно.
-2024-09-16 16:23:42,599 - INFO - Опит за зареждане на конфигурацията от config.json
-2024-09-16 16:23:42,599 - INFO - Конфигурацията е заредена успешно.
-2024-09-16 16:26:27,160 - INFO - Опит за зареждане на конфигурацията от config.json
-2024-09-16 16:26:27,160 - INFO - Конфигурацията е заредена успешно.
-2024-09-17 14:27:46,421 - INFO - Опит за зареждане на конфигурацията от config.json
-2024-09-17 14:27:46,421 - INFO - Конфигурацията е заредена успешно.
-2024-09-17 14:30:53,153 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\TD_18,09,2024_VIKTOR_5_JT.wav
-2024-09-17 14:30:53,153 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\TD_18,09,2024_VIKTOR_5_JT.wav in C:\Users\Studio3\Desktop\Rabotni
-2024-09-17 14:30:53,155 - INFO - Конфигурацията е запазена успешно.
-2024-09-17 14:32:53,174 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-06-21-20-00.mp3
-2024-09-17 14:32:53,174 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-06-21-20-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
-2024-09-17 14:32:53,175 - INFO - Конфигурацията е запазена успешно.
-2024-09-17 14:34:02,229 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\2024-06-21-20-00.mp3
-2024-09-17 14:34:02,230 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\2024-06-21-20-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
-2024-09-17 14:34:02,230 - INFO - Конфигурацията е запазена успешно.
+2024-09-18 16:41:55,272 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-18 16:41:55,280 - INFO - Конфигурацията е заредена успешно.
+2024-09-18 16:43:47,480 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-18 16:43:47,481 - INFO - Конфигурацията е заредена успешно.
+2024-09-18 16:51:33,238 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-18 16:51:33,238 - INFO - Конфигурацията е заредена успешно.
+2024-09-18 16:51:39,418 - INFO - Starting watching...
+2024-09-18 16:51:39,418 - INFO - Watcher is None: True
+2024-09-18 16:51:39,418 - INFO - Методът start_watching е извикан
+2024-09-18 16:51:47,738 - INFO - Starting watching...
+2024-09-18 16:51:47,738 - INFO - Watcher is None: False
+2024-09-18 16:51:47,738 - INFO - Методът start_watching е извикан
+2024-09-18 16:51:50,193 - INFO - Starting watching...
+2024-09-18 16:51:50,194 - INFO - Watcher is None: False
+2024-09-18 16:51:50,194 - INFO - Методът start_watching е извикан
+2024-09-18 16:53:39,234 - INFO - Starting watching...
+2024-09-18 16:53:39,234 - INFO - Watcher is None: False
+2024-09-18 16:53:39,234 - INFO - Методът start_watching е извикан
+2024-09-18 17:06:24,060 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-18 17:06:24,061 - INFO - Конфигурацията е заредена успешно.
+2024-09-18 17:06:28,897 - INFO - Starting watching...
+2024-09-18 17:06:28,898 - INFO - Watcher is None: True
+2024-09-18 17:06:28,898 - INFO - Методът start_watching е извикан
+2024-09-18 17:07:39,674 - INFO - Starting watching...
+2024-09-18 17:07:39,674 - INFO - Watcher is None: False
+2024-09-18 17:07:39,674 - INFO - Методът start_watching е извикан
+2024-09-18 17:07:40,818 - INFO - Starting watching...
+2024-09-18 17:07:40,818 - INFO - Watcher is None: False
+2024-09-18 17:07:40,818 - INFO - Методът start_watching е извикан
+2024-09-19 12:56:59,366 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 12:56:59,382 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 12:57:04,221 - INFO - Starting watching...
+2024-09-19 12:57:04,222 - INFO - Watcher is None: True
+2024-09-19 12:57:04,222 - INFO - Методът start_watching е извикан
+2024-09-19 12:57:19,761 - INFO - Starting watching...
+2024-09-19 12:57:19,761 - INFO - Watcher is None: False
+2024-09-19 12:57:19,761 - INFO - Методът start_watching е извикан
+2024-09-19 12:57:21,285 - INFO - Starting watching...
+2024-09-19 12:57:21,285 - INFO - Watcher is None: False
+2024-09-19 12:57:21,285 - INFO - Методът start_watching е извикан
+2024-09-19 12:57:21,877 - INFO - Starting watching...
+2024-09-19 12:57:21,877 - INFO - Watcher is None: False
+2024-09-19 12:57:21,877 - INFO - Методът start_watching е извикан
+2024-09-19 13:55:34,163 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 13:55:34,163 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 13:55:41,127 - INFO - Starting watching...
+2024-09-19 13:55:41,127 - INFO - Watcher is None: True
+2024-09-19 13:55:41,128 - INFO - Методът start_watching е извикан
+2024-09-19 13:56:20,208 - INFO - Конфигурацията е запазена успешно.
+2024-09-19 13:56:20,208 - INFO - Методът start_watching е извикан
+2024-09-19 13:56:20,210 - INFO - Методът start_watching е извикан
+2024-09-19 13:56:31,135 - INFO - Starting watching...
+2024-09-19 13:56:31,135 - INFO - Watcher is None: False
+2024-09-19 13:56:31,135 - INFO - Методът start_watching е извикан
+2024-09-19 14:03:26,601 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 14:03:26,616 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 14:22:38,444 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 14:22:38,445 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 14:22:42,868 - INFO - Starting watching...
+2024-09-19 14:22:42,868 - INFO - Watcher is None: True
+2024-09-19 14:22:42,868 - INFO - Методът start_watching е извикан
+2024-09-19 14:26:36,125 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 14:26:36,126 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 14:26:43,772 - INFO - Starting watching...
+2024-09-19 14:26:43,781 - INFO - Watcher is None: True
+2024-09-19 14:26:43,781 - INFO - Методът start_watching е извикан
+2024-09-19 14:30:22,395 - INFO - Наблюдател стартиран за: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES в 2024-09-19 14:30:22.394053
+2024-09-19 14:46:34,406 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_20,09,2024_DANCHO_KARADJOV.mp3
+2024-09-19 14:46:34,407 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_20,09,2024_DANCHO_KARADJOV.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-09-19 14:46:34,418 - INFO - Конфигурацията е запазена успешно.
+2024-09-19 14:55:00,445 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 14:55:00,461 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 14:55:13,016 - INFO - Starting watching...
+2024-09-19 14:55:13,016 - INFO - Watcher is None: True
+2024-09-19 14:55:13,016 - INFO - Методът start_watching е извикан
+2024-09-19 14:56:21,528 - INFO - Stopping watching...
+2024-09-19 14:56:24,224 - INFO - Starting watching...
+2024-09-19 14:56:24,224 - INFO - Watcher is None: True
+2024-09-19 14:56:24,224 - INFO - Методът start_watching е извикан
+2024-09-19 14:56:25,295 - INFO - Stopping watching...
+2024-09-19 15:07:26,683 - INFO - Entering main function
+2024-09-19 15:07:26,730 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 15:07:26,730 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 15:07:26,730 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 15:07:33,752 - INFO - Inside start_watching function
+2024-09-19 15:07:33,752 - INFO - Starting watching...
+2024-09-19 15:07:33,752 - INFO - Watcher is None: True
+2024-09-19 15:07:33,752 - INFO - Методът start_watching е извикан
+2024-09-19 15:07:33,759 - INFO - Watching started successfully
+2024-09-19 15:07:35,881 - INFO - Stopping watching...
+2024-09-19 15:07:35,881 - INFO - Watching stopped successfully
+2024-09-19 15:07:37,337 - INFO - Inside start_watching function
+2024-09-19 15:07:37,337 - INFO - Starting watching...
+2024-09-19 15:07:37,337 - INFO - Watcher is None: True
+2024-09-19 15:07:37,337 - INFO - Методът start_watching е извикан
+2024-09-19 15:07:37,338 - INFO - Watching started successfully
+2024-09-19 15:09:12,777 - INFO - Stopping watching...
+2024-09-19 15:09:12,777 - INFO - Watching stopped successfully
+2024-09-19 15:20:47,357 - INFO - Entering main function
+2024-09-19 15:20:47,405 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 15:20:47,405 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 15:20:47,405 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 15:27:24,033 - INFO - Entering main function
+2024-09-19 15:27:24,087 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 15:27:24,087 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 15:27:24,087 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 15:27:32,587 - INFO - Inside start_watching function
+2024-09-19 15:27:32,587 - INFO - Starting watching...
+2024-09-19 15:27:32,587 - INFO - Watcher is None: True
+2024-09-19 15:27:32,587 - INFO - Методът start_watching е извикан
+2024-09-19 15:27:32,594 - INFO - Watching started successfully
+2024-09-19 15:28:11,435 - INFO - Stopping watching...
+2024-09-19 15:28:11,436 - INFO - Watching stopped successfully
+2024-09-19 15:42:05,362 - INFO - Entering main function
+2024-09-19 15:46:41,654 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 15:46:41,655 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 15:47:19,662 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 15:53:12,919 - INFO - Entering main function
+2024-09-19 15:53:12,969 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 15:53:12,970 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 15:53:12,970 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 15:56:01,550 - INFO - Entering main function
+2024-09-19 15:56:01,601 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 15:56:01,601 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 15:56:01,601 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 15:56:09,854 - INFO - Inside start_watching function
+2024-09-19 15:56:09,854 - INFO - Starting watching...
+2024-09-19 15:56:09,854 - INFO - Watcher is None: True
+2024-09-19 15:56:09,854 - INFO - Методът start_watching е извикан
+2024-09-19 15:56:09,860 - INFO - Watching started successfully
+2024-09-19 15:56:41,374 - INFO - Stopping watching...
+2024-09-19 15:56:41,374 - INFO - Watching stopped successfully
+2024-09-19 15:56:43,261 - INFO - Inside start_watching function
+2024-09-19 15:56:43,261 - INFO - Starting watching...
+2024-09-19 15:56:43,261 - INFO - Watcher is None: True
+2024-09-19 15:56:43,261 - INFO - Методът start_watching е извикан
+2024-09-19 15:56:43,262 - INFO - Watching started successfully
+2024-09-19 15:56:44,197 - INFO - Stopping watching...
+2024-09-19 15:56:44,198 - INFO - Watching stopped successfully
+2024-09-19 16:01:35,874 - INFO - Entering main function
+2024-09-19 16:01:35,934 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:01:35,934 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:01:35,934 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:09:28,624 - INFO - Entering main function
+2024-09-19 16:09:28,678 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:09:28,679 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:09:28,679 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:12:00,020 - INFO - Entering main function
+2024-09-19 16:12:00,082 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:12:00,082 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:12:00,082 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:13:12,608 - INFO - Entering main function
+2024-09-19 16:13:12,666 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:13:12,667 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:13:12,667 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:13:19,023 - INFO - Inside start_watching function
+2024-09-19 16:13:19,023 - INFO - Starting watching...
+2024-09-19 16:13:19,023 - INFO - Watcher is None: True
+2024-09-19 16:13:19,024 - INFO - Методът start_watching е извикан
+2024-09-19 16:13:19,030 - INFO - Watching started successfully
+2024-09-19 16:13:21,640 - INFO - Stopping watching...
+2024-09-19 16:13:21,640 - INFO - Watching stopped successfully
+2024-09-19 16:16:23,696 - INFO - Entering main function
+2024-09-19 16:16:23,753 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:16:23,753 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:16:23,753 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:16:31,936 - INFO - Inside start_watching function
+2024-09-19 16:16:31,936 - INFO - Starting watching...
+2024-09-19 16:16:31,936 - INFO - Watcher is None: True
+2024-09-19 16:16:31,937 - INFO - Методът start_watching е извикан
+2024-09-19 16:16:31,944 - INFO - Watching started successfully
+2024-09-19 16:16:59,625 - INFO - Stopping watching...
+2024-09-19 16:16:59,625 - INFO - Watching stopped successfully
+2024-09-19 16:17:01,689 - INFO - Inside start_watching function
+2024-09-19 16:17:01,689 - INFO - Starting watching...
+2024-09-19 16:17:01,689 - INFO - Watcher is None: True
+2024-09-19 16:17:01,689 - INFO - Методът start_watching е извикан
+2024-09-19 16:17:01,690 - INFO - Watching started successfully
+2024-09-19 16:17:04,552 - INFO - Stopping watching...
+2024-09-19 16:17:04,552 - INFO - Watching stopped successfully
+2024-09-19 16:17:58,265 - INFO - Inside start_watching function
+2024-09-19 16:17:58,265 - INFO - Starting watching...
+2024-09-19 16:17:58,265 - INFO - Watcher is None: True
+2024-09-19 16:17:58,265 - INFO - Методът start_watching е извикан
+2024-09-19 16:17:58,266 - INFO - Watching started successfully
+2024-09-19 16:20:14,370 - INFO - Entering main function
+2024-09-19 16:20:14,428 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:20:14,428 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:20:14,428 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:20:19,857 - INFO - Inside start_watching function
+2024-09-19 16:20:19,857 - INFO - Starting watching...
+2024-09-19 16:20:19,857 - INFO - Watcher is None: True
+2024-09-19 16:20:19,857 - INFO - Методът start_watching е извикан
+2024-09-19 16:20:19,865 - INFO - Watching started successfully
+2024-09-19 16:20:25,209 - INFO - Stopping watching...
+2024-09-19 16:20:25,209 - INFO - Watching stopped successfully
+2024-09-19 16:26:54,650 - INFO - Entering main function
+2024-09-19 16:26:54,708 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:26:54,708 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:26:54,708 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:27:00,265 - INFO - Inside start_watching function
+2024-09-19 16:27:00,265 - INFO - Starting watching...
+2024-09-19 16:27:00,265 - INFO - Watcher is None: True
+2024-09-19 16:27:00,265 - INFO - Методът start_watching е извикан
+2024-09-19 16:27:00,273 - INFO - Watching started successfully
+2024-09-19 16:27:12,665 - INFO - Stopping watching...
+2024-09-19 16:27:12,665 - INFO - Watching stopped successfully
+2024-09-19 16:28:59,085 - INFO - Entering main function
+2024-09-19 16:28:59,144 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:28:59,144 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:28:59,144 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:29:04,818 - INFO - Inside start_watching function
+2024-09-19 16:29:04,818 - INFO - Starting watching...
+2024-09-19 16:29:04,818 - INFO - Watcher is None: True
+2024-09-19 16:29:04,818 - INFO - Методът start_watching е извикан
+2024-09-19 16:29:04,825 - INFO - Watching started successfully
+2024-09-19 16:29:23,114 - INFO - Stopping watching...
+2024-09-19 16:29:23,114 - INFO - Watching stopped successfully
+2024-09-19 16:30:21,809 - INFO - Inside start_watching function
+2024-09-19 16:30:21,810 - INFO - Starting watching...
+2024-09-19 16:30:21,810 - INFO - Watcher is None: True
+2024-09-19 16:30:21,810 - INFO - Методът start_watching е извикан
+2024-09-19 16:30:21,813 - INFO - Watching started successfully
+2024-09-19 16:30:34,186 - INFO - Stopping watching...
+2024-09-19 16:30:34,186 - INFO - Watching stopped successfully
+2024-09-19 16:30:55,179 - INFO - Entering main function
+2024-09-19 16:30:55,233 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:30:55,234 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:30:55,234 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:31:00,298 - INFO - Inside start_watching function
+2024-09-19 16:31:00,298 - INFO - Starting watching...
+2024-09-19 16:31:00,298 - INFO - Watcher is None: True
+2024-09-19 16:31:00,298 - INFO - Методът start_watching е извикан
+2024-09-19 16:31:00,305 - INFO - Watching started successfully
+2024-09-19 16:31:56,892 - INFO - Entering main function
+2024-09-19 16:31:56,950 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:31:56,950 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:31:56,950 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:32:01,442 - INFO - Inside start_watching function
+2024-09-19 16:32:01,442 - INFO - Starting watching...
+2024-09-19 16:32:01,442 - INFO - Watcher is None: True
+2024-09-19 16:32:01,442 - INFO - Методът start_watching е извикан
+2024-09-19 16:32:01,450 - INFO - Watching started successfully
+2024-09-19 16:37:50,497 - INFO - Entering main function
+2024-09-19 16:37:50,552 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:37:50,552 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:37:50,553 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:37:55,226 - INFO - Inside start_watching function
+2024-09-19 16:37:55,226 - INFO - Starting watching...
+2024-09-19 16:37:55,226 - INFO - Watcher is None: True
+2024-09-19 16:37:55,226 - INFO - Методът start_watching е извикан
+2024-09-19 16:37:55,234 - INFO - Watching started successfully
+2024-09-19 16:45:58,477 - INFO - Entering main function
+2024-09-19 16:45:58,533 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:45:58,534 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:45:58,534 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:46:02,628 - INFO - Inside start_watching function
+2024-09-19 16:46:02,628 - INFO - Starting watching...
+2024-09-19 16:46:02,628 - INFO - Watcher is None: True
+2024-09-19 16:46:02,628 - INFO - Методът start_watching е извикан
+2024-09-19 16:46:06,668 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-09-19 16:46:06.668885
+2024-09-19 16:46:09,098 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-09-19 16:46:09.098370
+2024-09-19 16:46:09,099 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/SHAKER in 83930.90163 seconds
+2024-09-19 16:46:09,100 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/SHAKER in 1730.90163 seconds
+2024-09-19 16:52:04,044 - INFO - Entering main function
+2024-09-19 16:52:04,104 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 16:52:04,104 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 16:52:04,104 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 16:52:09,772 - INFO - Inside start_watching function
+2024-09-19 16:52:09,772 - INFO - Starting watching...
+2024-09-19 16:52:09,772 - INFO - Watcher is None: True
+2024-09-19 16:52:09,772 - INFO - Методът start_watching е извикан
+2024-09-19 16:52:13,258 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-09-19 16:52:13.258107
+2024-09-19 16:52:15,308 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-09-19 16:52:15.308890
+2024-09-19 16:52:15,308 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/SHAKER in 83564.69111 seconds
+2024-09-19 16:52:15,309 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/SHAKER in 1364.69111 seconds
+2024-09-19 16:52:19,209 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-09-19 16:52:19.209046
+2024-09-19 16:52:19,209 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 83260.790954 seconds
+2024-09-19 16:52:19,209 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 1360.790954 seconds
+2024-09-19 16:52:19,210 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-09-19 16:52:19.210896
+2024-09-19 16:52:19,211 - INFO - Watching started successfully
+2024-09-19 17:00:58,104 - INFO - Entering main function
+2024-09-19 17:00:58,164 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 17:00:58,165 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 17:00:58,165 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 17:01:02,701 - INFO - Inside start_watching function
+2024-09-19 17:01:02,701 - INFO - Starting watching...
+2024-09-19 17:01:02,702 - INFO - Watcher is None: True
+2024-09-19 17:01:02,702 - INFO - Методът start_watching е извикан
+2024-09-19 17:01:06,924 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-09-19 17:01:06.923487
+2024-09-19 17:01:06,924 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 69233.075514 seconds
+2024-09-19 17:01:06,924 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 86033.075514 seconds
+2024-09-19 17:01:06,924 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/SHAKER in 83033.075514 seconds
+2024-09-19 17:01:06,924 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/SHAKER in 833.075514 seconds
+2024-09-19 17:01:11,212 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-09-19 17:01:11.212727
+2024-09-19 17:01:11,212 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 82728.787273 seconds
+2024-09-19 17:01:11,212 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 828.787273 seconds
+2024-09-19 17:01:11,213 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-09-19 17:01:11.213730
+2024-09-19 17:01:11,214 - INFO - Watching started successfully
+2024-09-19 17:01:22,349 - INFO - Stopping watching...
+2024-09-19 17:01:22,349 - INFO - Спряно наблюдение на директория: //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-09-19 17:01:22,349 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-09-19 17:01:22,350 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-09-19 17:01:22,350 - INFO - Watching stopped successfully
+2024-09-19 17:01:39,822 - INFO - Inside start_watching function
+2024-09-19 17:01:39,822 - INFO - Starting watching...
+2024-09-19 17:01:39,822 - INFO - Watcher is None: True
+2024-09-19 17:01:39,822 - INFO - Методът start_watching е извикан
+2024-09-19 17:01:44,019 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-09-19 17:01:44.019516
+2024-09-19 17:01:44,020 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 69195.980484 seconds
+2024-09-19 17:01:44,020 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 85995.980484 seconds
+2024-09-19 17:01:44,020 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/SHAKER in 82995.97966 seconds
+2024-09-19 17:01:44,020 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/SHAKER in 795.97966 seconds
+2024-09-19 17:01:48,221 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-09-19 17:01:48.221747
+2024-09-19 17:01:48,222 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 82691.778253 seconds
+2024-09-19 17:01:48,222 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 791.778253 seconds
+2024-09-19 17:01:48,223 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-09-19 17:01:48.223549
+2024-09-19 17:01:48,223 - INFO - Watching started successfully
+2024-09-19 17:01:53,685 - INFO - Stopping watching...
+2024-09-19 17:01:53,686 - INFO - Спряно наблюдение на директория: //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-09-19 17:01:53,686 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-09-19 17:01:53,686 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-09-19 17:01:53,686 - INFO - Watching stopped successfully
+2024-09-19 17:06:01,602 - INFO - Entering main function
+2024-09-19 17:06:01,657 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 17:06:01,658 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 17:06:01,659 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 17:06:06,854 - INFO - Inside start_watching function
+2024-09-19 17:06:06,854 - INFO - Starting watching...
+2024-09-19 17:06:06,854 - INFO - Watcher is None: True
+2024-09-19 17:06:06,854 - INFO - Методът start_watching е извикан
+2024-09-19 17:06:06,860 - INFO - Scheduling start for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 82433.145981 seconds
+2024-09-19 17:06:06,860 - INFO - Scheduling stop for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 86213.145981 seconds
+2024-09-19 17:06:06,860 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 68933.139969 seconds
+2024-09-19 17:06:06,860 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 85733.139969 seconds
+2024-09-19 17:06:06,860 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/SHAKER in 82733.139969 seconds
+2024-09-19 17:06:06,860 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/SHAKER in 533.139969 seconds
+2024-09-19 17:06:11,149 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-09-19 17:06:11.149768
+2024-09-19 17:06:11,149 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 82428.850232 seconds
+2024-09-19 17:06:11,150 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 528.850232 seconds
+2024-09-19 17:06:11,151 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-09-19 17:06:11.151802
+2024-09-19 17:06:11,152 - INFO - Watching started successfully
+2024-09-19 17:06:18,693 - INFO - Stopping watching...
+2024-09-19 17:06:18,694 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-09-19 17:06:18,694 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-09-19 17:06:18,694 - INFO - Watching stopped successfully
+2024-09-19 17:09:46,876 - INFO - Entering main function
+2024-09-19 17:09:46,933 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 17:09:46,934 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 17:09:46,934 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 17:09:51,429 - INFO - Inside start_watching function
+2024-09-19 17:09:51,429 - INFO - Starting watching...
+2024-09-19 17:09:51,430 - INFO - Watcher is None: True
+2024-09-19 17:09:51,431 - INFO - Методът start_watching е извикан
+2024-09-19 17:09:51,436 - INFO - Scheduling start for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 82208.568912 seconds
+2024-09-19 17:09:51,436 - INFO - Scheduling stop for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 85988.568912 seconds
+2024-09-19 17:09:51,436 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 68708.563912 seconds
+2024-09-19 17:09:51,437 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 85508.563912 seconds
+2024-09-19 17:09:51,437 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/SHAKER in 82508.562914 seconds
+2024-09-19 17:09:51,437 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/SHAKER in 308.562914 seconds
+2024-09-19 17:09:55,286 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-09-19 17:09:55.286537
+2024-09-19 17:09:55,286 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 82204.713463 seconds
+2024-09-19 17:09:55,286 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 304.713463 seconds
+2024-09-19 17:09:55,287 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-09-19 17:09:55.287538
+2024-09-19 17:09:55,288 - INFO - Watching started successfully
+2024-09-19 17:09:59,830 - INFO - Stopping watching...
+2024-09-19 17:09:59,830 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-09-19 17:09:59,830 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-09-19 17:09:59,831 - INFO - Watching stopped successfully
+2024-09-19 17:12:28,286 - INFO - Entering main function
+2024-09-19 17:12:28,350 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 17:12:28,351 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 17:12:28,351 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 17:12:32,551 - INFO - Inside start_watching function
+2024-09-19 17:12:32,551 - INFO - Starting watching...
+2024-09-19 17:12:32,551 - INFO - Watcher is None: True
+2024-09-19 17:12:32,552 - INFO - Методът start_watching е извикан
+2024-09-19 17:12:32,557 - INFO - Scheduling start for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 82047.447816 seconds
+2024-09-19 17:12:32,557 - INFO - Scheduling stop for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 85827.447816 seconds
+2024-09-19 17:12:32,558 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 68547.442806 seconds
+2024-09-19 17:12:32,558 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 85347.442806 seconds
+2024-09-19 17:12:32,558 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/SHAKER in 82347.441806 seconds
+2024-09-19 17:12:32,558 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/SHAKER in 147.441806 seconds
+2024-09-19 17:12:37,639 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-09-19 17:12:37.639524
+2024-09-19 17:12:37,639 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 82042.360476 seconds
+2024-09-19 17:12:37,639 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 142.360476 seconds
+2024-09-19 17:12:37,640 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-09-19 17:12:37.640524
+2024-09-19 17:12:37,641 - INFO - Watching started successfully
+2024-09-19 17:13:35,776 - INFO - Stopping watching...
+2024-09-19 17:13:35,777 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-09-19 17:13:35,777 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-09-19 17:13:35,777 - INFO - Watching stopped successfully
+2024-09-19 17:32:00,922 - INFO - Entering main function
+2024-09-19 17:32:00,984 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 17:32:00,985 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 17:32:00,985 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 17:32:08,520 - INFO - Inside start_watching function
+2024-09-19 17:32:08,520 - INFO - Starting watching...
+2024-09-19 17:32:08,521 - INFO - Watcher is None: True
+2024-09-19 17:32:08,521 - INFO - Методът start_watching е извикан
+2024-09-19 17:32:08,528 - INFO - Scheduling start for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 80871.478025 seconds
+2024-09-19 17:32:08,528 - INFO - Scheduling stop for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 84651.478025 seconds
+2024-09-19 17:32:08,528 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 67371.471047 seconds
+2024-09-19 17:32:08,528 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 84171.471047 seconds
+2024-09-19 17:32:08,529 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/SHAKER in 81171.470047 seconds
+2024-09-19 17:32:08,529 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/SHAKER in 85371.470047 seconds
+2024-09-19 17:32:13,557 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-09-19 17:32:13.557085
+2024-09-19 17:32:13,557 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 80866.44291499999 seconds
+2024-09-19 17:32:13,557 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 85366.442915 seconds
+2024-09-19 17:32:13,557 - INFO - Scheduling start for C:\Users\Studio3\Desktop\Rabotni in 70666.44291499999 seconds
+2024-09-19 17:32:13,558 - INFO - Scheduling stop for C:\Users\Studio3\Desktop\Rabotni in 86266.442915 seconds
+2024-09-19 17:32:13,558 - INFO - Watching started successfully
+2024-09-19 17:33:10,986 - INFO - Entering main function
+2024-09-19 17:33:11,045 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 17:33:11,045 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 17:33:11,046 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '17:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 17:33:32,968 - INFO - Конфигурацията е запазена успешно.
+2024-09-19 17:33:40,000 - INFO - Конфигурацията е запазена успешно.
+2024-09-19 17:33:52,184 - INFO - Конфигурацията е запазена успешно.
+2024-09-19 17:35:20,601 - INFO - Entering main function
+2024-09-19 17:35:20,660 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-09-19 17:35:20,660 - INFO - Конфигурацията е заредена успешно.
+2024-09-19 17:35:20,660 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:05', 'end_time': '17:15', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '14:30', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-09-19T14:46:34.407123'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-09-17T16:52:36.160545'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '13:10', 'end_time': '18:30', 'interval': 60, 'last_checked': '2024-09-18T16:00:12.688734'}]
+2024-09-19 17:35:25,705 - INFO - Inside start_watching function
+2024-09-19 17:35:25,705 - INFO - Starting watching...
+2024-09-19 17:35:25,705 - INFO - Watcher is None: True
+2024-09-19 17:35:25,705 - INFO - Методът start_watching е извикан
+2024-09-19 17:35:25,711 - INFO - Scheduling start for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 80674.294807 seconds
+2024-09-19 17:35:25,711 - INFO - Scheduling stop for //192.168.33.20/NeWS/NEWS TODAY/17,00 in 84454.294807 seconds
+2024-09-19 17:35:25,711 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 67174.288795 seconds
+2024-09-19 17:35:25,711 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN in 83974.288795 seconds
+2024-09-19 17:35:25,711 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/SHAKER in 80974.288795 seconds
+2024-09-19 17:35:25,711 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/SHAKER in 85174.288795 seconds
+2024-09-19 17:35:30,460 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-09-19 17:35:30.460346
+2024-09-19 17:35:30,460 - INFO - Scheduling start for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 80669.539654 seconds
+2024-09-19 17:35:30,460 - INFO - Scheduling stop for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN in 85169.539654 seconds
+2024-09-19 17:35:30,461 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-09-19 17:35:30.461345
+2024-09-19 17:35:30,462 - INFO - Watching started successfully
+2024-09-19 17:37:30,480 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\TD_05,08,2024_DEN_SIM_YANITSA-3.wav
+2024-09-19 17:37:30,481 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\TD_05,08,2024_DEN_SIM_YANITSA-3.wav in C:\Users\Studio3\Desktop\Rabotni
+2024-09-19 17:37:30,481 - INFO - Конфигурацията е запазена успешно.
+2024-09-19 17:40:34,621 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\2024-06-20-20-00.mp3
+2024-09-19 17:40:34,621 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\2024-06-20-20-00.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-09-19 17:40:34,622 - INFO - Конфигурацията е запазена успешно.
+2024-09-19 17:42:30,518 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-06-20-19-00.mp3
+2024-09-19 17:42:30,518 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-06-20-19-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-09-19 17:42:30,518 - INFO - Конфигурацията е запазена успешно.
+2024-09-19 17:45:38,956 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\2024-06-20-19-00.mp3
+2024-09-19 17:45:38,956 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\2024-06-20-19-00.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-09-19 17:45:38,956 - INFO - Конфигурацията е запазена успешно.
+2024-09-19 17:45:45,266 - INFO - Stopping watching...
+2024-09-19 17:45:45,266 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-09-19 17:45:45,266 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-09-19 17:45:45,267 - INFO - Watching stopped successfully

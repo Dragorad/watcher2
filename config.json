@@ -32,7 +32,7 @@
         "days": [
             "петък"
         ],
-        "start_time": "16:00",
+        "start_time": "16:05",
         "end_time": "17:15",
         "interval": 300,
         "lastChecked": "1900-01-01T00:00:00"
@@ -50,10 +50,10 @@
         "end_time": "18:00",
         "interval": 300,
         "lastChecked": "1900-01-01T00:00:00",
-        "last_checked": "2024-08-27T15:38:23.741169"
+        "last_checked": "2024-09-19T17:45:38.956248"
     },
     {
-        "path": "\\\\192.168.33.20\\ZaPsi_EfiR\\VHOD SVOBODEN",
+        "path": "//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN",
         "days": [
             "понеделник",
             " вторник",
@@ -62,9 +62,9 @@
             " петък"
         ],
         "start_time": "16:00",
-        "end_time": "17:30",
+        "end_time": "17:15",
         "interval": 300,
-        "last_checked": "2024-08-30T14:12:58.144816"
+        "last_checked": "2024-09-17T16:52:36.160545"
     },
     {
         "path": "C:\\Users\\Studio3\\Desktop\\Rabotni",
@@ -76,8 +76,8 @@
             "петък"
         ],
         "start_time": "13:10",
-        "end_time": "17:30",
+        "end_time": "18:30",
         "interval": 60,
-        "last_checked": "2024-09-17T14:34:02.230334"
+        "last_checked": "2024-09-19T17:42:30.518962"
     }
 ]
