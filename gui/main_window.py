@@ -27,6 +27,7 @@ class MainWindow(tk.Frame):
         self.watcher = watcher
 
     def setup_ui(self):
+               
         self.pack(fill=tk.BOTH, expand=True)
 
         # Frame за основните бутони
@@ -46,7 +47,30 @@ class MainWindow(tk.Frame):
         self.show_notifications_button.pack(side=tk.LEFT, padx=5)
 
         # Treeview за показване на директориите
+        style = ttk.Style()
+        style.configure("Directory.Column", weight=12, parent="Treeview.Column")
+        style.configure("Days.Column", weight=10, parent="Treeview.Column")
+        style.configure("Time.Column", weight=1, parent="Treeview.Column")
+        style.configure("Actions.Column", weight=2, parent="Treeview.Column")
+
         self.directory_tree = ttk.Treeview(self, columns=("Path", "Days", "Start Time", "End Time", "Interval", "Edit", "Delete"), show="headings")
+        
+        # self.directory_tree.columnconfigure(0, weight=12, minsize=350, style="Directory.Column")  # Path
+        # self.directory_tree.columnconfigure(1, weight=12, minsize=350, style="Days.Column")    # Days
+        # self.directory_tree.columnconfigure(2, weight=1, minsize=100, style="Time.Column")      # Start Time
+        # self.directory_tree.columnconfigure(3, weight=1, minsize=100, style="Time.Column")      # End Time
+        # self.directory_tree.columnconfigure(4, weight=1, minsize=20, style="Time.Column")        # Interval
+        # self.directory_tree.columnconfigure(5, weight=2, minsize=30, style="Actions.Column")     # Edit
+        # self.directory_tree.columnconfigure(6, weight=2, minsize=30, style="Actions.Column") 
+        
+        self.directory_tree.columnconfigure(0, weight=12,minsize=350)  # Path
+        self.directory_tree.columnconfigure(1, weight=12, minsize=350)  # Days
+        self.directory_tree.columnconfigure(2, weight=1,)  # Start Time
+        self.directory_tree.columnconfigure(3, weight=1)  # End Time
+        self.directory_tree.columnconfigure(4, weight=1, minsize=20)  # Interval
+        self.directory_tree.columnconfigure(5, weight=2, minsize=30)  # Edit
+        self.directory_tree.columnconfigure(6, weight=2,minsize=30)  # Delete
+
         self.directory_tree.heading("Path", text="Path")
         self.directory_tree.heading("Days", text="Days")
         self.directory_tree.heading("Start Time", text="Start Time")

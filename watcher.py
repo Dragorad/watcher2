@@ -1,7 +1,7 @@
 import os
 import time
 import logging
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 import sched
 import threading
 from watchdog.observers.polling import PollingObserver
@@ -72,11 +72,12 @@ class DirectoryWatcher:
         if days_to_watch and today_str not in days_to_watch:
             return False
         else:
-            now = datetime.now().time()
-            start_time = datetime.strptime(directory['start_time'], '%H:%M').time()
-            end_time = datetime.strptime(directory['end_time'], '%H:%M').time()
-            return start_time <= now <= end_time
-
+            # now = datetime.now().time()
+            # start_time = datetime.strptime(directory['start_time'], '%H:%M').time()
+            # end_time = datetime.strptime(directory['end_time'], '%H:%M').time()
+            # return start_time <= now <= end_time
+            return True
+        
     def on_new_file(self, path, directory_path):
         logging.info(f"New file created at {path} in {directory_path}")
         update_last_checked(self.directories, directory_path)
@@ -112,13 +113,24 @@ class DirectoryWatcher:
         now = datetime.now()
         start_time = datetime.strptime(directory['start_time'], '%H:%M').time()
         end_time = datetime.strptime(directory['end_time'], '%H:%M').time()
-        
+
+
+        start_datetime = datetime.combine(now.date(), start_time)
+        end_datetime = datetime.combine(now.date(), end_time)
+
+        if end_time < start_time:
+            end_datetime += timedelta(days=1) 
+
+        delay_to_start = (start_datetime - now).total_seconds()
+        delay_to_stop = (end_datetime - now).total_seconds()
+
         if start_time <= now.time() <= end_time and self.should_watch(directory): 
             self.start_observer(directory) 
+            self.scheduler.enter(delay_to_stop, 1, self.stop_observer, argument=(directory['path'],))
         else:
             # Ако текущото време е извън интервала, планираме стартиране 
             # в началото на интервала и спиране в края му
-            delay_to_start = (datetime.combine(now.date(), start_time) - now).total_seconds()
+            # delay_to_start = (datetime.combine(now.date(), start_time) - now).total_seconds()
             if delay_to_start < 0:  # Ако start_time е днес, но вече е минал, планираме за утре
                 delay_to_start += 24 * 60 * 60 
 
@@ -133,7 +145,15 @@ class DirectoryWatcher:
             self.scheduler.enter(delay_to_stop, 1, self.stop_observer, argument=(directory['path'],))
 
     def start_observer(self, directory):
+        
+         
         print('start observer', self.observers)
+        notification.notify(
+            title="Observer started",
+            message=f"Started observer for {directory}",
+            timeout=5
+        )
+        self.notification_callback(f"Started observer for {directory}")
         """
         Стартира наблюдател за дадена директория.
         """
@@ -152,6 +172,14 @@ class DirectoryWatcher:
         """
         Спира наблюдател за дадена директория.
         """
+        print('stop observer', self.observers)
+        notification.notify(
+            title="Observer Stopped",
+            message=f"Started observer for {path}",
+            timeout=5
+        )
+        self.notification_callback(f"Stopped observer for {path}")
+        
         if path in self.observers:
             self.observers[path].stop()
             self.observers[path].join()

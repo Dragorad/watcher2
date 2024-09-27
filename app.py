@@ -17,6 +17,7 @@ def main():
     logging.info("Entering main function")
     print('Entering in main')
     root = tk.Tk()
+    root.geometry("800x300+100+100")
     root.title("File Watcher")
 
     directories = load_config()

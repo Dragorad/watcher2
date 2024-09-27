@@ -11,7 +11,8 @@
         "start_time": "16:00",
         "end_time": "17:03",
         "interval": 60,
-        "lastChecked": "1900-01-01T00:00:00"
+        "lastChecked": "1900-01-01T00:00:00",
+        "last_checked": "2024-09-27T16:07:45.187316"
     },
     {
         "path": "//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN",
@@ -25,7 +26,8 @@
         "start_time": "12:15",
         "end_time": "16:55",
         "interval": 180,
-        "lastChecked": "1900-01-01T00:00:00"
+        "lastChecked": "1900-01-01T00:00:00",
+        "last_checked": "2024-09-27T15:38:08.594936"
     },
     {
         "path": "//192.168.33.20/ZaPisi_EfiR/SHAKER",
@@ -50,7 +52,7 @@
         "end_time": "18:00",
         "interval": 300,
         "lastChecked": "1900-01-01T00:00:00",
-        "last_checked": "2024-09-19T17:45:38.956248"
+        "last_checked": "2024-09-27T16:25:54.272204"
     },
     {
         "path": "//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN",
@@ -76,8 +78,36 @@
             "петък"
         ],
         "start_time": "13:10",
-        "end_time": "18:30",
+        "end_time": "16:15",
         "interval": 60,
-        "last_checked": "2024-09-19T17:42:30.518962"
+        "last_checked": "2024-09-27T15:39:16.498628"
+    },
+    {
+        "path": "//192.168.33.20/NeWS/NEWS TODAY/19,00",
+        "days": [
+            "понеделник",
+            "вторник",
+            "сряда",
+            "четвъртък",
+            "петък"
+        ],
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "interval": 180,
+        "last_checked": "2024-09-25T18:09:01.737699"
+    },
+    {
+        "path": "//192.168.33.20/NeWS/NEWS TODAY/20,00",
+        "days": [
+            "понеделник",
+            "вторник",
+            "сряда",
+            "четвъртък",
+            "петък"
+        ],
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "interval": 180,
+        "last_checked": "2024-09-25T18:09:03.736748"
     }
 ]
