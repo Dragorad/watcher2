@@ -55,14 +55,7 @@ class MainWindow(tk.Frame):
 
         self.directory_tree = ttk.Treeview(self, columns=("Path", "Days", "Start Time", "End Time", "Interval", "Edit", "Delete"), show="headings")
         
-        # self.directory_tree.columnconfigure(0, weight=12, minsize=350, style="Directory.Column")  # Path
-        # self.directory_tree.columnconfigure(1, weight=12, minsize=350, style="Days.Column")    # Days
-        # self.directory_tree.columnconfigure(2, weight=1, minsize=100, style="Time.Column")      # Start Time
-        # self.directory_tree.columnconfigure(3, weight=1, minsize=100, style="Time.Column")      # End Time
-        # self.directory_tree.columnconfigure(4, weight=1, minsize=20, style="Time.Column")        # Interval
-        # self.directory_tree.columnconfigure(5, weight=2, minsize=30, style="Actions.Column")     # Edit
-        # self.directory_tree.columnconfigure(6, weight=2, minsize=30, style="Actions.Column") 
-        
+       
         self.directory_tree.columnconfigure(0, weight=12,minsize=350)  # Path
         self.directory_tree.columnconfigure(1, weight=12, minsize=350)  # Days
         self.directory_tree.columnconfigure(2, weight=1,)  # Start Time

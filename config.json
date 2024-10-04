@@ -12,7 +12,7 @@
         "end_time": "17:03",
         "interval": 60,
         "lastChecked": "1900-01-01T00:00:00",
-        "last_checked": "2024-09-27T16:07:45.187316"
+        "last_checked": "2024-10-04T16:14:24.675575"
     },
     {
         "path": "//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN",
@@ -27,7 +27,7 @@
         "end_time": "16:55",
         "interval": 180,
         "lastChecked": "1900-01-01T00:00:00",
-        "last_checked": "2024-09-27T15:38:08.594936"
+        "last_checked": "2024-10-04T16:28:46.610769"
     },
     {
         "path": "//192.168.33.20/ZaPisi_EfiR/SHAKER",
@@ -48,11 +48,11 @@
             "четвъртък",
             "петък"
         ],
-        "start_time": "14:30",
+        "start_time": "16:15",
         "end_time": "18:00",
         "interval": 300,
         "lastChecked": "1900-01-01T00:00:00",
-        "last_checked": "2024-09-27T16:25:54.272204"
+        "last_checked": "2024-10-04T16:30:53.208044"
     },
     {
         "path": "//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN",
@@ -66,7 +66,7 @@
         "start_time": "16:00",
         "end_time": "17:15",
         "interval": 300,
-        "last_checked": "2024-09-17T16:52:36.160545"
+        "last_checked": "2024-10-02T16:05:09.442540"
     },
     {
         "path": "C:\\Users\\Studio3\\Desktop\\Rabotni",
@@ -80,7 +80,7 @@
         "start_time": "13:10",
         "end_time": "16:15",
         "interval": 60,
-        "last_checked": "2024-09-27T15:39:16.498628"
+        "last_checked": "2024-10-04T15:46:01.361486"
     },
     {
         "path": "//192.168.33.20/NeWS/NEWS TODAY/19,00",
@@ -94,7 +94,7 @@
         "start_time": "16:30",
         "end_time": "18:30",
         "interval": 180,
-        "last_checked": "2024-09-25T18:09:01.737699"
+        "last_checked": "2024-10-03T17:23:43.525944"
     },
     {
         "path": "//192.168.33.20/NeWS/NEWS TODAY/20,00",
@@ -108,6 +108,6 @@
         "start_time": "16:30",
         "end_time": "18:30",
         "interval": 180,
-        "last_checked": "2024-09-25T18:09:03.736748"
+        "last_checked": "2024-10-03T17:23:50.622379"
     }
 ]

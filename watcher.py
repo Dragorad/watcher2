@@ -1,6 +1,7 @@
 import os
 import time
-import logging
+import logging, logging.handlers
+import queue
 from datetime import datetime, date, timedelta
 import sched
 import threading
@@ -9,9 +10,29 @@ from watchdog.events import FileSystemEventHandler
 from plyer import notification
 from config import update_last_checked
 
-# Конфигуриране на logging за watcher.py
-logging.basicConfig(filename='watcher.log', level=logging.INFO, 
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Създаване на опашка за съобщенията на логера
+log_queue = queue.Queue()
+
+# Настройване на QueueHandler за опашката
+queue_handler = logging.handlers.QueueHandler(log_queue)
+
+# Създаване на формат за лог съобщенията
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
+# Настройване на файл, където ще се записват логовете
+file_handler = logging.FileHandler('watcher.log')
+file_handler.setFormatter(formatter)
+
+# Настройване на основния логер да използва QueueHandler
+logging.basicConfig(level=logging.INFO, handlers=[file_handler, queue_handler])
+
+# Настройка на listener, който ще взима съобщенията от опашката и ще ги записва
+queue_listener = logging.handlers.QueueListener(log_queue, file_handler)
+queue_listener.start()
+
+
+
 
 class WatcherHandler(FileSystemEventHandler):
     def __init__(self, callback):
@@ -55,6 +76,7 @@ class DirectoryWatcher:
 
         self.observers = {} 
         self.running = False
+        logging.shutdown()
 
         # Изчистване на планировчика
         for event in self.scheduler.queue:
@@ -81,14 +103,14 @@ class DirectoryWatcher:
     def on_new_file(self, path, directory_path):
         logging.info(f"New file created at {path} in {directory_path}")
         update_last_checked(self.directories, directory_path)
-
+        file_name = path.split('/')[-1]
         notification.notify(
             title="New File Detected",
-            message=f"New file created at {path} in {directory_path}",
+            message=f"New file created in {path}",
             timeout=5
         )
-
-        self.notification_callback(f"New file created at {path} in {directory_path}")
+        self.notification_callback('New file created ', directory_path , file_name)
+        # self.notification_callback(f"New file created at {path} in {directory_path}")
 
     def update_directories(self, new_directories):
         """Актуализира списъка с наблюдавани директории."""
@@ -104,6 +126,7 @@ class DirectoryWatcher:
             del self.observers[path]
 
         self.directories = [d for d in self.directories if d['path'] != path]
+        logging.info(f"Директорията {path} е премахната от конфигурацията")
 
     def schedule_monitoring(self, directory):
         """
@@ -150,10 +173,10 @@ class DirectoryWatcher:
         print('start observer', self.observers)
         notification.notify(
             title="Observer started",
-            message=f"Started observer for {directory}",
+            message=f"Observer started for {directory}",
             timeout=5
         )
-        self.notification_callback(f"Started observer for {directory}")
+        self.notification_callback("Observer started",directory, "")
         """
         Стартира наблюдател за дадена директория.
         """
@@ -175,10 +198,10 @@ class DirectoryWatcher:
         print('stop observer', self.observers)
         notification.notify(
             title="Observer Stopped",
-            message=f"Started observer for {path}",
+            message=f"Observer stopped for {path}",
             timeout=5
         )
-        self.notification_callback(f"Stopped observer for {path}")
+        self.notification_callback("Obserfer Stopped", path, "")
         
         if path in self.observers:
             self.observers[path].stop()
