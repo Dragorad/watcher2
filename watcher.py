@@ -9,6 +9,16 @@ from watchdog.observers.polling import PollingObserver
 from watchdog.events import FileSystemEventHandler
 from plyer import notification
 from config import update_last_checked
+from pushbullet import Pushbullet
+from dotenv import load_dotenv
+
+
+load_dotenv()
+api_token = os.getenv("PUSHBULLET_API_TOKEN")
+
+print(api_token)
+
+pb = Pushbullet(api_token)
 
 
 # Създаване на опашка за съобщенията на логера
@@ -94,24 +104,31 @@ class DirectoryWatcher:
         if days_to_watch and today_str not in days_to_watch:
             return False
         else:
-            # now = datetime.now().time()
-            # start_time = datetime.strptime(directory['start_time'], '%H:%M').time()
-            # end_time = datetime.strptime(directory['end_time'], '%H:%M').time()
-            # return start_time <= now <= end_time
+           
             return True
-        
+
+    def send_notifications(self, title, message):
+           
+            push = pb.push_note(title,message)
+            print("Pushbullet result", push)
+            notification.notify(
+                title = title,
+                message = message,
+                timeout = 5
+            )
+
     def on_new_file(self, path, directory_path):
         logging.info(f"New file created at {path} in {directory_path}")
         update_last_checked(self.directories, directory_path)
         file_name = path.split('/')[-1]
-        notification.notify(
-            title="New File Detected",
-            message=f"New file created in {path}",
-            timeout=5
+        
+        self.send_notifications(
+            title= "new File Detected",
+            message= f"New file created in {path}"
         )
+        
         self.notification_callback('New file created ', directory_path , file_name)
-        # self.notification_callback(f"New file created at {path} in {directory_path}")
-
+        
     def update_directories(self, new_directories):
         """Актуализира списъка с наблюдавани директории."""
         self.stop_watching()
@@ -168,14 +185,18 @@ class DirectoryWatcher:
             self.scheduler.enter(delay_to_stop, 1, self.stop_observer, argument=(directory['path'],))
 
     def start_observer(self, directory):
-        
          
         print('start observer', self.observers)
-        notification.notify(
-            title="Observer started",
-            message=f"Observer started for {directory}",
-            timeout=5
+
+        self.send_notifications(
+            title="Observer Started",
+            message=f"Observer started for {directory['path']}"
         )
+        # notification.notify(
+        #     title="Observer started",
+        #     message=f"Observer started for {directory}",
+        #     timeout=5
+        # )
         self.notification_callback("Observer started",directory, "")
         """
         Стартира наблюдател за дадена директория.
@@ -196,11 +217,15 @@ class DirectoryWatcher:
         Спира наблюдател за дадена директория.
         """
         print('stop observer', self.observers)
-        notification.notify(
+        # notification.notify(
+        #     title="Observer Stopped",
+        #     message=f"Observer stopped for {path}",
+        #     timeout=5
+        # )
+        self.send_notifications( 
             title="Observer Stopped",
-            message=f"Observer stopped for {path}",
-            timeout=5
-        )
+            message=f"Observer stopped for {path}",)
+        
         self.notification_callback("Obserfer Stopped", path, "")
         
         if path in self.observers:
