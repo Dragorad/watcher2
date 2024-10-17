@@ -3350,3 +3350,44 @@
 2024-10-17 17:06:37,115 - INFO - �������������� � �������� �������.
 2024-10-17 17:06:37,115 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_17,10,2024_19-20H_TORAKS_YANITSA.mp3
 2024-10-17 17:06:37,343 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 595
+2024-10-17 22:43:10,612 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-17 22:43:16,299 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 401 176
+2024-10-17 22:43:20,754 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-17 22:43:21,419 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 401 176
+2024-10-17 22:45:49,996 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-17 22:45:49,996 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-17 22:45:49,997 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-17 22:45:49,997 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-17 22:45:49,997 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-17 22:45:49,997 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-17 22:45:49,997 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-17 22:45:49,997 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-17 22:45:49,997 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-17 22:45:49,997 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-17 22:45:49,997 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-17 22:45:49,998 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-17 22:45:51,027 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-17 22:45:51,200 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-17 22:45:51,435 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-17 22:45:51,641 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-17 22:45:51,644 - INFO - Entering main function
+2024-10-17 22:45:51,723 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-17 22:45:51,723 - INFO - Конфигурацията е заредена успешно.
+2024-10-17 22:45:51,723 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T16:51:37.736619'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T16:25:14.974273'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-17T15:14:12.604836'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-17T17:06:24.665640'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-17T17:06:37.115447'}]
+2024-10-17 22:46:14,470 - INFO - Inside start_watching function
+2024-10-17 22:46:14,470 - INFO - Starting watching...
+2024-10-17 22:46:14,471 - INFO - Watcher is None: True
+2024-10-17 22:46:14,471 - INFO - Методът start_watching е извикан
+2024-10-17 22:46:14,478 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for C:\Users\Studio3\Desktop\Rabotni
+2024-10-17 22:46:14,478 - INFO - Watching started successfully
+2024-10-17 22:46:14,691 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-17 22:46:14,744 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-17 22:46:14,988 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-17 22:46:14,995 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-17 22:46:15,202 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-17 22:46:15,208 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-17 22:46:15,413 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 556
+2024-10-17 22:46:15,423 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-17 22:46:15,630 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-17 22:46:15,646 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-17 22:46:15,909 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
