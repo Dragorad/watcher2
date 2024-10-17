@@ -13,17 +13,17 @@ from plyer import notification
 from config import update_last_checked
 from pushbullet import Pushbullet
 from dotenv import load_dotenv
-from firebase_admin import credentials, messaging, initialize_app
+# from firebase_admin import credentials, messaging, initialize_app
 
 
 load_dotenv()
 api_token = os.getenv("PUSHBULLET_API_TOKEN")
-firebase_credentiaals_json = os.getenv("FIREBASE_CREDENTIALS")
-cred = credentials.Certificate("filewatcher-dragorad-firebase.json")
+# firebase_credentiaals_json = os.getenv("FIREBASE_CREDENTIALS")
+# cred = credentials.Certificate("filewatcher-dragorad-firebase.json")
 
 print(api_token)
 # print(firebase_credentiaals_json.project_id)
-initialize_app(cred)
+# initialize_app(cred)
 
 pb = Pushbullet(api_token)
 
