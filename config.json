@@ -12,7 +12,7 @@
         "end_time": "17:03",
         "interval": 60,
         "lastChecked": "1900-01-01T00:00:00",
-        "last_checked": "2024-10-14T16:55:41.840072"
+        "last_checked": "2024-10-17T16:51:37.736619"
     },
     {
         "path": "//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN",
@@ -27,15 +27,15 @@
         "end_time": "16:55",
         "interval": 180,
         "lastChecked": "1900-01-01T00:00:00",
-        "last_checked": "2024-10-14T16:01:45.626123"
+        "last_checked": "2024-10-17T15:51:40.071757"
     },
     {
         "path": "//192.168.33.20/ZaPisi_EfiR/SHAKER",
         "days": [
             "петък"
         ],
-        "start_time": "16:05",
-        "end_time": "17:15",
+        "start_time": "16:15",
+        "end_time": "17:30",
         "interval": 300,
         "lastChecked": "1900-01-01T00:00:00",
         "last_checked": "2024-10-11T17:00:05.086803"
@@ -53,7 +53,7 @@
         "end_time": "18:00",
         "interval": 300,
         "lastChecked": "1900-01-01T00:00:00",
-        "last_checked": "2024-10-14T17:52:12.089101"
+        "last_checked": "2024-10-17T16:25:14.974273"
     },
     {
         "path": "//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN",
@@ -78,10 +78,10 @@
             "четвъртък",
             "петък"
         ],
-        "start_time": "13:10",
-        "end_time": "16:15",
+        "start_time": "11:55",
+        "end_time": "14:45",
         "interval": 60,
-        "last_checked": "2024-10-15T15:49:11.118862"
+        "last_checked": "2024-10-17T15:14:12.604836"
     },
     {
         "path": "//192.168.33.20/NeWS/NEWS TODAY/19,00",
@@ -95,7 +95,7 @@
         "start_time": "16:30",
         "end_time": "18:30",
         "interval": 180,
-        "last_checked": "2024-10-14T17:18:40.177650"
+        "last_checked": "2024-10-17T17:06:24.665640"
     },
     {
         "path": "//192.168.33.20/NeWS/NEWS TODAY/20,00",
@@ -109,6 +109,6 @@
         "start_time": "16:30",
         "end_time": "18:30",
         "interval": 180,
-        "last_checked": "2024-10-14T17:17:43.466159"
+        "last_checked": "2024-10-17T17:06:37.115447"
     }
 ]

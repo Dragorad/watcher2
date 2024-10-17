@@ -25,4 +25,4 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg  
 .env
-
+.filewatcher-dragorad-firebase

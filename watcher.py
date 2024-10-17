@@ -1,6 +1,8 @@
 import os
+import json
 import time
-import logging, logging.handlers
+import logging
+import logging.handlers
 import queue
 from datetime import datetime, date, timedelta
 import sched
@@ -11,36 +13,34 @@ from plyer import notification
 from config import update_last_checked
 from pushbullet import Pushbullet
 from dotenv import load_dotenv
+from firebase_admin import credentials, messaging, initialize_app
 
 
 load_dotenv()
 api_token = os.getenv("PUSHBULLET_API_TOKEN")
+firebase_credentiaals_json = os.getenv("FIREBASE_CREDENTIALS")
+cred = credentials.Certificate("filewatcher-dragorad-firebase.json")
 
 print(api_token)
+# print(firebase_credentiaals_json.project_id)
+initialize_app(cred)
 
 pb = Pushbullet(api_token)
 
-
-# Създаване на опашка за съобщенията на логера
-log_queue = queue.Queue()
-
-# Настройване на QueueHandler за опашката
-queue_handler = logging.handlers.QueueHandler(log_queue)
-
-# Създаване на формат за лог съобщенията
+notification_log_queue = queue.Queue()
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+notification_file_handler = logging.FileHandler('notifications.log')
+notification_file_handler.setFormatter(formatter)
+notification_queue_handler = logging.handlers.QueueHandler(notification_log_queue)
+notification_logger = logging.getLogger('notification_logger')
+notification_logger.setLevel(logging.INFO)
+notification_logger.addHandler(notification_queue_handler)
+notification_queue_listener = logging.handlers.QueueListener(notification_log_queue, notification_file_handler)
+notification_queue_listener.start()
 
-# Настройване на файл, където ще се записват логовете
-file_handler = logging.FileHandler('watcher.log')
-file_handler.setFormatter(formatter)
-
-# Настройване на основния логер да използва QueueHandler
-logging.basicConfig(level=logging.INFO, handlers=[file_handler, queue_handler])
-
-# Настройка на listener, който ще взима съобщенията от опашката и ще ги записва
-queue_listener = logging.handlers.QueueListener(log_queue, file_handler)
-queue_listener.start()
-
+# Функция за логване на нотификацията
+def log_notification(title, message):
+    notification_logger.info(f"Notification - Title: {title}, Message: {message}")
 
 
 
@@ -108,7 +108,7 @@ class DirectoryWatcher:
             return True
 
     def send_notifications(self, title, message):
-           
+            log_notification(title, message)
             push = pb.push_note(title,message)
             print("Pushbullet result", push)
             notification.notify(
@@ -144,7 +144,6 @@ class DirectoryWatcher:
 
         self.directories = [d for d in self.directories if d['path'] != path]
         logging.info(f"Директорията {path} е премахната от конфигурацията")
-
     def schedule_monitoring(self, directory):
         """
         Планира стартирането и спирането на наблюдението на директория 
@@ -153,7 +152,6 @@ class DirectoryWatcher:
         now = datetime.now()
         start_time = datetime.strptime(directory['start_time'], '%H:%M').time()
         end_time = datetime.strptime(directory['end_time'], '%H:%M').time()
-
 
         start_datetime = datetime.combine(now.date(), start_time)
         end_datetime = datetime.combine(now.date(), end_time)
@@ -164,26 +162,31 @@ class DirectoryWatcher:
         delay_to_start = (start_datetime - now).total_seconds()
         delay_to_stop = (end_datetime - now).total_seconds()
 
-        if start_time <= now.time() <= end_time and self.should_watch(directory): 
-            self.start_observer(directory) 
-            self.scheduler.enter(delay_to_stop, 1, self.stop_observer, argument=(directory['path'],))
+        # Първо проверяваме дали днешният ден е сред дните за наблюдение
+        if self.should_watch(directory):
+            print(f"Today is a valid day for watching: {date.today().strftime('%A')}. Proceeding with time check.")
+            
+            # След това проверяваме дали текущото време е в рамките на start_time и end_time
+            if start_time <= now.time() <= end_time:
+                print(f"Current time is within the start and end time range for {directory['path']}.")
+                self.start_observer(directory)
+                self.scheduler.enter(delay_to_stop, 1, self.stop_observer, argument=(directory['path'],))
+            else:
+                print(f"Current time is outside the start and end time range for {directory['path']}.")
+                
+                # Ако времето за стартиране е минало, планираме за утре
+                if delay_to_start < 0:
+                    delay_to_start += 24 * 60 * 60  # Планиране за следващия ден
+
+                print(f"Scheduling start for {directory['path']} in {delay_to_start} seconds")
+                print(f"Scheduling stop for {directory['path']} in {delay_to_stop} seconds")
+
+                self.scheduler.enter(delay_to_start, 1, self.start_observer, argument=(directory,))
+                self.scheduler.enter(delay_to_stop, 1, self.stop_observer, argument=(directory['path'],))
         else:
-            # Ако текущото време е извън интервала, планираме стартиране 
-            # в началото на интервала и спиране в края му
-            # delay_to_start = (datetime.combine(now.date(), start_time) - now).total_seconds()
-            if delay_to_start < 0:  # Ако start_time е днес, но вече е минал, планираме за утре
-                delay_to_start += 24 * 60 * 60 
+            print(f"Today is not a valid day for watching: {date.today().strftime('%A')}. Skipping observer start for {directory['path']}.")
 
-            delay_to_stop = (datetime.combine(now.date(), end_time) - now).total_seconds()
-            if delay_to_stop < 0:
-                delay_to_stop += 24 * 60 * 60
-
-            logging.info(f"Scheduling start for {directory['path']} in {delay_to_start} seconds")
-            logging.info(f"Scheduling stop for {directory['path']} in {delay_to_stop} seconds")
-
-            self.scheduler.enter(delay_to_start, 1, self.start_observer, argument=(directory,))
-            self.scheduler.enter(delay_to_stop, 1, self.stop_observer, argument=(directory['path'],))
-
+    
     def start_observer(self, directory):
          
         print('start observer', self.observers)
