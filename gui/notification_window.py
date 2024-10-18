@@ -1,3 +1,5 @@
+
+
 import tkinter as tk
 from tkinter import ttk
 from datetime import datetime
@@ -6,42 +8,56 @@ class NotificationWindow:
     def __init__(self, master=None):
         # Създаване на нов независим прозорец за нотификации
         self.window = tk.Toplevel(master)
-        self.window.title("Notifications")
+        self.window.title("Notifications window ")
         
         # Това прави прозореца винаги отгоре (но това е по избор)
         self.window.attributes('-topmost', False)
 
-         # Секция за показване на текущия ден и дата
+        # Секция за показване на текущия ден и дата
         self.current_date_label = tk.Label(self.window, text=self.get_current_day_date(), font=("Arial", 14))
         self.current_date_label.pack(pady=5)
         
-        # Създаване на секция за Running Observers
+        # Създаване на секция за Running Observers с намалена височина и скролбар
         self.running_label = tk.Label(self.window, text="Running Observers", bg="#e0f7fa", font=("Arial", 12, "bold"))
         self.running_label.pack(fill=tk.X, pady=(10, 0))
 
-        self.running_tree = ttk.Treeview(self.window, columns=("directory", "end_time"), show="headings")
+        running_frame = tk.Frame(self.window)
+        running_frame.pack(fill=tk.BOTH, expand=False, pady=5)
+
+        self.running_tree = ttk.Treeview(running_frame, columns=("directory", "end_time"), show="headings", height=3)
         self.running_tree.heading("directory", text="Directory")
         self.running_tree.heading("end_time", text="End Time")
-        self.running_tree.pack(fill=tk.BOTH, expand=True, pady=5)
+        self.running_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-        # Създаване на секция за Scheduled Observers
+        running_scrollbar = ttk.Scrollbar(running_frame, orient="vertical", command=self.running_tree.yview)
+        self.running_tree.configure(yscroll=running_scrollbar.set)
+        running_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        # Създаване на секция за Scheduled Observers с намалена височина и скролбар
         self.scheduled_label = tk.Label(self.window, text="Scheduled Observers", bg="#ffecb3", font=("Arial", 12, "bold"))
         self.scheduled_label.pack(fill=tk.X, pady=(10, 0))
 
-        self.scheduled_tree = ttk.Treeview(self.window, columns=("directory", "start_time"), show="headings")
+        scheduled_frame = tk.Frame(self.window)
+        scheduled_frame.pack(fill=tk.BOTH, expand=False, pady=5)
+
+        self.scheduled_tree = ttk.Treeview(scheduled_frame, columns=("directory", "start_time"), show="headings", height=3)
         self.scheduled_tree.heading("directory", text="Directory")
         self.scheduled_tree.heading("start_time", text="Start Time")
-        self.scheduled_tree.pack(fill=tk.BOTH, expand=True, pady=5)
+        self.scheduled_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
-        
-        self.tree = ttk.Treeview(self.window, columns=("time","action", "directory", "file"), show="headings")
+        scheduled_scrollbar = ttk.Scrollbar(scheduled_frame, orient="vertical", command=self.scheduled_tree.yview)
+        self.scheduled_tree.configure(yscroll=scheduled_scrollbar.set)
+        scheduled_scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        # Създаване на Treeview за текущи нотификации
+        self.tree = ttk.Treeview(self.window, columns=("time", "action", "directory", "file"), show="headings", height=10)
         self.tree.heading("time", text="Time")
         self.tree.heading("action", text="Action")
         self.tree.heading("directory", text="Directory")
         self.tree.heading("file", text="File Name")
-        self.tree.pack(fill=tk.BOTH, expand=True)
+        self.tree.pack(fill=tk.BOTH, expand=True, pady=5)
 
-        # Добавяне на Scrollbar
+        # Добавяне на Scrollbar към секцията с нотификации
         scrollbar = ttk.Scrollbar(self.window, orient="vertical", command=self.tree.yview)
         self.tree.configure(yscroll=scrollbar.set)
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
@@ -54,13 +70,14 @@ class NotificationWindow:
         clear_log_button = tk.Button(self.window, text="Clear Notification Log", command=self.clear_notifications_log)
         clear_log_button.pack(pady=5)
 
-
         # Правим така, че прозорецът да се крие вместо да се затваря
         self.window.protocol("WM_DELETE_WINDOW", self.hide)
+
     def get_current_day_date(self):
         # Връща текущия ден от седмицата и дата като текст
         today = datetime.now().strftime('%A, %Y-%m-%d')
         return f"Today is: {today}"
+
     def add_running_observer(self, directory, end_time):
         # Добавяне на текущо работещ обзървър в таблицата
         self.running_tree.insert("", tk.END, values=(directory, end_time))
@@ -74,7 +91,6 @@ class NotificationWindow:
     def add_scheduled_observer(self, directory, start_time):
         # Добавяне на планиран обзървър в таблицата
         self.scheduled_tree.insert("", tk.END, values=(directory, start_time))
-
 
     def add_notification(self, message_action, message_directory, message_filename):
         # Добавяне на нотификацията в прозореца с текущото време
@@ -101,3 +117,4 @@ class NotificationWindow:
     def hide(self):
         # Скриване на прозореца за нотификации
         self.window.withdraw()
+

@@ -26,3 +26,5 @@ share/python-wheels/
 .installed.cfg  
 .env
 .filewatcher-dragorad-firebase
+filewatcher-dragorad-firebase.json
+notifications.log

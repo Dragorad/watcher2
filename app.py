@@ -38,7 +38,7 @@ def main():
         if watcher is not None:
             watcher.stop_watching()
 
-        watcher = DirectoryWatcher(directories, notification_window.add_notification)
+        watcher = DirectoryWatcher(directories, notification_window)
         watcher.start_watching()
 
         # Update the watcher reference in MainWindow
