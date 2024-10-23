@@ -28,3 +28,4 @@ share/python-wheels/
 .filewatcher-dragorad-firebase
 filewatcher-dragorad-firebase.json
 notifications.log
+config.log

@@ -3350,3 +3350,1030 @@
 2024-10-17 17:06:37,115 - INFO - Конфигурацията е запазена успешно.
 2024-10-17 17:06:37,115 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_17,10,2024_19-20H_TORAKS_YANITSA.mp3
 2024-10-17 17:06:37,343 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 595
+2024-10-18 16:27:00,838 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-18 16:27:00,838 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-18 16:27:00,838 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-18 16:27:00,839 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-18 16:27:00,839 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-18 16:27:00,839 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-18 16:27:00,839 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-18 16:27:00,839 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-18 16:27:00,839 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-18 16:27:00,839 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-18 16:27:00,839 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-18 16:27:00,841 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-18 16:27:01,317 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-18 16:27:01,476 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-18 16:27:01,631 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-18 16:27:01,789 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-18 16:27:01,791 - INFO - Entering main function
+2024-10-18 16:27:01,931 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-18 16:27:01,931 - INFO - Конфигурацията е заредена успешно.
+2024-10-18 16:27:01,931 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T16:51:37.736619'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T16:25:14.974273'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-17T15:14:12.604836'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-17T17:06:24.665640'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-17T17:06:37.115447'}]
+2024-10-18 16:27:06,847 - INFO - Inside start_watching function
+2024-10-18 16:27:06,847 - INFO - Starting watching...
+2024-10-18 16:27:06,847 - INFO - Watcher is None: True
+2024-10-18 16:27:06,847 - INFO - Методът start_watching е извикан
+2024-10-18 16:27:06,850 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-18 16:27:07,050 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-18 16:27:11,036 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-18 16:27:11.036598
+2024-10-18 16:27:11,036 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-18 16:27:11.036598
+2024-10-18 16:27:11,037 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-18 16:27:11,235 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-18 16:27:13,664 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-18 16:27:13.664286
+2024-10-18 16:27:13,664 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-18 16:27:13.664286
+2024-10-18 16:27:13,665 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/SHAKER
+2024-10-18 16:27:13,864 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 552
+2024-10-18 16:27:14,265 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/SHAKER at 2024-10-18 16:27:14.265858
+2024-10-18 16:27:14,265 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/SHAKER at 2024-10-18 16:27:14.265858
+2024-10-18 16:27:14,267 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-18 16:27:14,467 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 556
+2024-10-18 16:27:18,568 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-10-18 16:27:18.568064
+2024-10-18 16:27:18,568 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-10-18 16:27:18.568064
+2024-10-18 16:27:18,570 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for C:\Users\Studio3\Desktop\Rabotni
+2024-10-18 16:27:18,571 - INFO - Watching started successfully
+2024-10-18 16:27:18,776 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-18 16:30:00,001 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-18 16:30:00,189 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 599
+2024-10-18 16:30:02,402 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/20,00 at 2024-10-18 16:30:02.402599
+2024-10-18 16:30:02,402 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/20,00 at 2024-10-18 16:30:02.402599
+2024-10-18 16:30:02,402 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-18 16:30:02,597 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 599
+2024-10-18 16:30:04,980 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/19,00 at 2024-10-18 16:30:04.980505
+2024-10-18 16:30:04,980 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/19,00 at 2024-10-18 16:30:04.980505
+2024-10-18 16:32:22,861 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\DOBRO_UTRO\TD_24,10,2024_SEMEISTVO_JT_4.mp3
+2024-10-18 16:32:22,861 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\DOBRO_UTRO\TD_24,10,2024_SEMEISTVO_JT_4.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-18 16:32:22,862 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 16:32:22,862 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\DOBRO_UTRO\TD_24,10,2024_SEMEISTVO_JT_4.mp3
+2024-10-18 16:32:23,065 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 651
+2024-10-18 16:32:23,067 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\DOBRO_UTRO\TD_25,10,2024_SEMEISTVO_JT_5.mp3
+2024-10-18 16:32:23,068 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\DOBRO_UTRO\TD_25,10,2024_SEMEISTVO_JT_5.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-18 16:32:23,068 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 16:32:23,068 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\DOBRO_UTRO\TD_25,10,2024_SEMEISTVO_JT_5.mp3
+2024-10-18 16:32:23,283 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 649
+2024-10-18 16:39:20,659 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-18 16:39:20,659 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-18 16:39:20,659 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-18 16:39:20,659 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-18 16:39:20,659 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-18 16:39:20,659 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-18 16:39:20,659 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-18 16:39:20,659 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-18 16:39:20,660 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-18 16:39:20,660 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-18 16:39:20,660 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-18 16:39:20,661 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-18 16:39:21,152 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-18 16:39:21,324 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-18 16:39:21,482 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-18 16:39:21,641 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-18 16:39:21,642 - INFO - Entering main function
+2024-10-18 16:39:21,698 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-18 16:39:21,705 - INFO - Конфигурацията е заредена успешно.
+2024-10-18 16:39:21,705 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T16:51:37.736619'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T16:32:23.068872'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-17T15:14:12.604836'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-17T17:06:24.665640'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-17T17:06:37.115447'}]
+2024-10-18 16:39:25,592 - INFO - Inside start_watching function
+2024-10-18 16:39:25,592 - INFO - Starting watching...
+2024-10-18 16:39:25,592 - INFO - Watcher is None: True
+2024-10-18 16:39:25,592 - INFO - Методът start_watching е извикан
+2024-10-18 16:39:25,595 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-18 16:39:25,792 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-18 16:39:30,039 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-18 16:39:30.039223
+2024-10-18 16:39:30,039 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-18 16:39:30.039223
+2024-10-18 16:39:30,040 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-18 16:39:30,251 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-18 16:39:32,734 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-18 16:39:32.734588
+2024-10-18 16:39:32,734 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-18 16:39:32.734588
+2024-10-18 16:39:32,735 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/SHAKER
+2024-10-18 16:39:32,931 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 550
+2024-10-18 16:39:33,385 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/SHAKER at 2024-10-18 16:39:33.385844
+2024-10-18 16:39:33,385 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/SHAKER at 2024-10-18 16:39:33.385844
+2024-10-18 16:39:33,386 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-18 16:39:33,594 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 556
+2024-10-18 16:39:38,080 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-10-18 16:39:38.080038
+2024-10-18 16:39:38,080 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-10-18 16:39:38.080038
+2024-10-18 16:39:38,081 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-18 16:39:38,281 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 600
+2024-10-18 16:39:41,456 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/19,00 at 2024-10-18 16:39:41.456557
+2024-10-18 16:39:41,456 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/19,00 at 2024-10-18 16:39:41.456557
+2024-10-18 16:39:41,456 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-18 16:39:41,652 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 600
+2024-10-18 16:39:43,990 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/20,00 at 2024-10-18 16:39:43.990924
+2024-10-18 16:39:43,990 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/20,00 at 2024-10-18 16:39:43.990924
+2024-10-18 16:39:43,991 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for C:\Users\Studio3\Desktop\Rabotni
+2024-10-18 16:39:43,992 - INFO - Watching started successfully
+2024-10-18 16:39:44,195 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 597
+2024-10-18 16:44:42,432 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_21,10,2024_GUMELYA_VESI.mp3
+2024-10-18 16:44:42,432 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_21,10,2024_GUMELYA_VESI.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-18 16:44:42,433 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 16:44:42,433 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_21,10,2024_GUMELYA_VESI.mp3
+2024-10-18 16:44:42,634 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 588
+2024-10-18 16:49:09,329 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/17,00\N_18,10,2024_17h_BETONEN_DANI.mp3
+2024-10-18 16:49:09,329 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/17,00\N_18,10,2024_17h_BETONEN_DANI.mp3 in //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-18 16:49:09,330 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 16:49:09,330 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/17,00\N_18,10,2024_17h_BETONEN_DANI.mp3
+2024-10-18 16:49:09,527 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 590
+2024-10-18 16:51:51,824 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\N_18,10,2024_19-20h_BETONEN_DANI.mp3
+2024-10-18 16:51:51,824 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\N_18,10,2024_19-20h_BETONEN_DANI.mp3 in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-18 16:51:51,825 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 16:51:51,825 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\N_18,10,2024_19-20h_BETONEN_DANI.mp3
+2024-10-18 16:51:52,023 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 593
+2024-10-18 16:51:53,481 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_19-20h_BETONEN_DANI.mp3
+2024-10-18 16:51:53,481 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_19-20h_BETONEN_DANI.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-18 16:51:53,481 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 16:51:53,481 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_19-20h_BETONEN_DANI.mp3
+2024-10-18 16:51:53,688 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 593
+2024-10-18 16:55:02,695 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-18 16:55:02,908 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-18 16:55:02,913 - INFO - Observer stopped for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-18 16:55:02.913428
+2024-10-18 17:01:00,252 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\~$NEWS.docx
+2024-10-18 17:01:00,252 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\~$NEWS.docx in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-18 17:01:00,253 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 17:01:00,253 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\~$NEWS.docx
+2024-10-18 17:01:00,447 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 568
+2024-10-18 17:03:04,447 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-18 17:03:04,663 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-18 17:03:07,211 - INFO - Observer stopped for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-18 17:03:07.211420
+2024-10-18 17:04:02,787 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\NEWS.docx
+2024-10-18 17:04:02,787 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\NEWS.docx in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-18 17:04:02,788 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 17:04:02,788 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\NEWS.docx
+2024-10-18 17:04:02,988 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 566
+2024-10-18 17:04:03,270 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\NEWS.docx
+2024-10-18 17:04:03,270 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\NEWS.docx in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-18 17:04:03,270 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 17:04:03,270 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\NEWS.docx
+2024-10-18 17:04:03,476 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 564
+2024-10-18 17:05:02,308 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_23,10,2024_SEMEISTVO_JT_3.mp3
+2024-10-18 17:05:02,308 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_23,10,2024_SEMEISTVO_JT_3.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-18 17:05:02,309 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 17:05:02,309 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_23,10,2024_SEMEISTVO_JT_3.mp3
+2024-10-18 17:05:02,519 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 588
+2024-10-18 17:30:00,652 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/ZaPisi_EfiR/SHAKER
+2024-10-18 17:30:00,652 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-18 17:30:01,187 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 550
+2024-10-18 17:30:01,192 - INFO - Observer stopped for: //192.168.33.20/ZaPisi_EfiR/SHAKER at 2024-10-18 17:30:01.192840
+2024-10-18 17:37:34,223 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_20H_PECHKI_BOILERI_DIMITAR.mp3
+2024-10-18 17:37:34,223 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_20H_PECHKI_BOILERI_DIMITAR.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-18 17:37:34,224 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 17:37:34,224 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_20H_PECHKI_BOILERI_DIMITAR.mp3
+2024-10-18 17:37:34,428 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 600
+2024-10-18 17:40:36,707 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_20H_PECHKI_BOILERI_DIMITAR.mp3
+2024-10-18 17:40:36,708 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_20H_PECHKI_BOILERI_DIMITAR.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-18 17:40:36,708 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 17:40:36,708 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_20H_PECHKI_BOILERI_DIMITAR.mp3
+2024-10-18 17:40:36,911 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 600
+2024-10-18 17:40:36,912 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_20H_VKC_POLA.mp3
+2024-10-18 17:40:36,912 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_20H_VKC_POLA.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-18 17:40:36,913 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 17:40:36,913 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_18,10,2024_20H_VKC_POLA.mp3
+2024-10-18 17:40:37,114 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 586
+2024-10-18 17:40:39,144 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\N_18,10,2024_19H_VKC_POLA.mp3
+2024-10-18 17:40:39,144 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\N_18,10,2024_19H_VKC_POLA.mp3 in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-18 17:40:39,144 - INFO - Конфигурацията е запазена успешно.
+2024-10-18 17:40:39,144 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\N_18,10,2024_19H_VKC_POLA.mp3
+2024-10-18 17:40:39,349 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 586
+2024-10-21 13:56:31,775 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-21 13:56:31,800 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-21 13:56:31,802 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-21 13:56:32,342 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-21 13:56:32,531 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-21 13:56:32,697 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-21 13:56:32,857 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-21 13:56:32,858 - INFO - Entering main function
+2024-10-21 13:56:33,359 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-21 13:56:33,366 - INFO - Конфигурацията е заредена успешно.
+2024-10-21 13:56:33,366 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T16:49:09.329903'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T17:05:02.309178'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-17T15:14:12.604836'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:39.144379'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:36.912675'}]
+2024-10-21 13:56:38,492 - INFO - Inside start_watching function
+2024-10-21 13:56:38,492 - INFO - Starting watching...
+2024-10-21 13:56:38,492 - INFO - Watcher is None: True
+2024-10-21 13:56:38,492 - INFO - Методът start_watching е извикан
+2024-10-21 13:56:38,508 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 13:56:38,725 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 556
+2024-10-21 13:56:41,225 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 13:56:41.225265
+2024-10-21 13:56:41,225 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 13:56:41.225265
+2024-10-21 13:56:41,226 - INFO - Notification - Title: Observer Started, Message: Observer started for C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 13:56:41,424 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-21 13:56:41,427 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 13:56:41.427187
+2024-10-21 13:56:41,427 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 13:56:41.427187
+2024-10-21 13:56:41,429 - INFO - Watching started successfully
+2024-10-21 14:05:41,473 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-18-19-00.mp3
+2024-10-21 14:05:41,474 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-18-19-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:05:41,475 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:05:41,475 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-18-19-00.mp3
+2024-10-21 14:05:41,669 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:05:41,672 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-16-20-00.mp3
+2024-10-21 14:05:41,672 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-16-20-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:05:41,673 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:05:41,673 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-16-20-00.mp3
+2024-10-21 14:05:41,897 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:05:41,900 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-17-19-00.mp3
+2024-10-21 14:05:41,900 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-17-19-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:05:41,900 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:05:41,900 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-17-19-00.mp3
+2024-10-21 14:05:42,103 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:05:42,104 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-17-20-00.mp3
+2024-10-21 14:05:42,104 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-17-20-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:05:42,105 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:05:42,105 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-17-20-00.mp3
+2024-10-21 14:05:42,305 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:05:42,308 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-16-19-00.mp3
+2024-10-21 14:05:42,308 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-16-19-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:05:42,308 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:05:42,309 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-16-19-00.mp3
+2024-10-21 14:05:42,506 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:05:42,507 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-18-20-00.mp3
+2024-10-21 14:05:42,507 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-18-20-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:05:42,508 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:05:42,508 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-18-20-00.mp3
+2024-10-21 14:05:42,713 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:07:41,476 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-18-19-00.mp3
+2024-10-21 14:07:41,476 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-18-19-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:07:41,477 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:07:41,477 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-18-19-00.mp3
+2024-10-21 14:07:41,672 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:07:41,673 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-16-20-00.mp3
+2024-10-21 14:07:41,673 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-16-20-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:07:41,674 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:07:41,674 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-16-20-00.mp3
+2024-10-21 14:07:41,869 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:07:41,871 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-17-19-00.mp3
+2024-10-21 14:07:41,871 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-17-19-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:07:41,871 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:07:41,872 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-17-19-00.mp3
+2024-10-21 14:07:42,076 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:07:42,078 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-17-20-00.mp3
+2024-10-21 14:07:42,078 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-17-20-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:07:42,078 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:07:42,079 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-17-20-00.mp3
+2024-10-21 14:07:42,285 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:07:42,288 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-16-19-00.mp3
+2024-10-21 14:07:42,288 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-16-19-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:07:42,289 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:07:42,289 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-16-19-00.mp3
+2024-10-21 14:07:42,499 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:07:42,502 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-18-20-00.mp3
+2024-10-21 14:07:42,502 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-18-20-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:07:42,502 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:07:42,502 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-18-20-00.mp3
+2024-10-21 14:07:42,695 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:09:31,968 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-21 14:09:31,968 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-21 14:09:31,968 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-21 14:09:31,969 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-21 14:09:31,969 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-21 14:09:31,969 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-21 14:09:31,969 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-21 14:09:31,969 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-21 14:09:31,969 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-21 14:09:31,969 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-21 14:09:31,969 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-21 14:09:31,971 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-21 14:09:32,490 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-21 14:09:32,667 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-21 14:09:32,832 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-21 14:09:32,998 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-21 14:09:32,999 - INFO - Entering main function
+2024-10-21 14:09:33,063 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-21 14:09:33,072 - INFO - Конфигурацията е заредена успешно.
+2024-10-21 14:09:33,072 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T16:49:09.329903'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T17:05:02.309178'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:07:42.502764'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:39.144379'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:36.912675'}]
+2024-10-21 14:12:54,021 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-21 14:12:54,021 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-21 14:12:54,021 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-21 14:12:54,021 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-21 14:12:54,021 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-21 14:12:54,021 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-21 14:12:54,021 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-21 14:12:54,021 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-21 14:12:54,021 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-21 14:12:54,022 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-21 14:12:54,022 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-21 14:12:54,023 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-21 14:12:54,584 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-21 14:12:54,780 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-21 14:12:54,978 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-21 14:12:55,183 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-21 14:12:55,184 - INFO - Entering main function
+2024-10-21 14:12:55,243 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-21 14:12:55,244 - INFO - Конфигурацията е заредена успешно.
+2024-10-21 14:12:55,244 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T16:49:09.329903'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T17:05:02.309178'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:07:42.502764'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:39.144379'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:36.912675'}]
+2024-10-21 14:13:01,021 - INFO - Inside start_watching function
+2024-10-21 14:13:01,021 - INFO - Starting watching...
+2024-10-21 14:13:01,021 - INFO - Watcher is None: True
+2024-10-21 14:13:01,021 - INFO - Методът start_watching е извикан
+2024-10-21 14:13:01,025 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 14:13:01,230 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-21 14:13:03,684 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 14:13:03.684739
+2024-10-21 14:13:03,684 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 14:13:03.684739
+2024-10-21 14:13:03,687 - INFO - Notification - Title: Observer Started, Message: Observer started for C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:13:03,891 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-21 14:13:03,900 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 14:13:03.900135
+2024-10-21 14:13:03,901 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 14:13:03.901134
+2024-10-21 14:13:03,903 - INFO - Watching started successfully
+2024-10-21 14:13:36,734 - INFO - Stopping watching...
+2024-10-21 14:13:36,734 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 14:13:36,735 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:13:36,735 - INFO - Watching stopped successfully
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-21 14:16:09,994 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-21 14:16:09,995 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-21 14:16:09,996 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-21 14:16:10,549 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-21 14:16:10,725 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-21 14:16:10,883 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-21 14:16:11,043 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-21 14:16:11,044 - INFO - Entering main function
+2024-10-21 14:16:11,108 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-21 14:16:11,108 - INFO - Конфигурацията е заредена успешно.
+2024-10-21 14:16:11,109 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T16:49:09.329903'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T17:05:02.309178'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:07:42.502764'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:39.144379'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:36.912675'}]
+2024-10-21 14:16:15,262 - INFO - Inside start_watching function
+2024-10-21 14:16:15,262 - INFO - Starting watching...
+2024-10-21 14:16:15,262 - INFO - Watcher is None: True
+2024-10-21 14:16:15,262 - INFO - Методът start_watching е извикан
+2024-10-21 14:16:15,266 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 14:16:15,523 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-21 14:16:18,464 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 14:16:18.464559
+2024-10-21 14:16:18,464 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 14:16:18.464559
+2024-10-21 14:16:18,467 - INFO - Notification - Title: Observer Started, Message: Observer started for C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:16:18,668 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-21 14:16:18,670 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 14:16:18.670441
+2024-10-21 14:16:18,670 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 14:16:18.670441
+2024-10-21 14:16:18,673 - INFO - Watching started successfully
+2024-10-21 14:16:40,261 - INFO - Stopping watching...
+2024-10-21 14:16:40,262 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 14:16:40,262 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:16:40,262 - INFO - Watching stopped successfully
+2024-10-21 14:18:26,893 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-21 14:18:26,894 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-21 14:18:26,896 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-21 14:18:27,394 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-21 14:18:27,558 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-21 14:18:27,718 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-21 14:18:27,876 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-21 14:18:27,877 - INFO - Entering main function
+2024-10-21 14:18:27,935 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-21 14:18:27,935 - INFO - Конфигурацията е заредена успешно.
+2024-10-21 14:18:27,935 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T16:49:09.329903'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T17:05:02.309178'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:07:42.502764'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:39.144379'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:36.912675'}]
+2024-10-21 14:19:00,838 - INFO - Inside start_watching function
+2024-10-21 14:19:00,838 - INFO - Starting watching...
+2024-10-21 14:19:00,838 - INFO - Watcher is None: True
+2024-10-21 14:19:00,838 - INFO - Методът start_watching е извикан
+2024-10-21 14:19:00,842 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 14:19:01,039 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-21 14:19:03,410 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 14:19:03.410754
+2024-10-21 14:19:03,410 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 14:19:03.410754
+2024-10-21 14:19:03,413 - INFO - Notification - Title: Observer Started, Message: Observer started for C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:19:03,614 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-21 14:19:03,617 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 14:19:03.617446
+2024-10-21 14:19:03,617 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 14:19:03.617446
+2024-10-21 14:19:03,620 - INFO - Watching started successfully
+2024-10-21 14:23:45,974 - INFO - Stopping watching...
+2024-10-21 14:23:45,974 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 14:23:45,974 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:23:45,975 - INFO - Watching stopped successfully
+2024-10-21 14:25:32,818 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-21 14:25:32,818 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-21 14:25:32,818 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-21 14:25:32,818 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-21 14:25:32,818 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-21 14:25:32,818 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-21 14:25:32,818 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-21 14:25:32,818 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-21 14:25:32,818 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-21 14:25:32,819 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-21 14:25:32,819 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-21 14:25:32,820 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-21 14:25:33,338 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-21 14:25:33,508 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-21 14:25:33,674 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-21 14:25:33,837 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-21 14:25:33,838 - INFO - Entering main function
+2024-10-21 14:25:33,895 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-21 14:25:33,895 - INFO - Конфигурацията е заредена успешно.
+2024-10-21 14:25:33,895 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T16:49:09.329903'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T17:05:02.309178'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:07:42.502764'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:39.144379'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:36.912675'}]
+2024-10-21 14:35:12,631 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-21 14:35:12,631 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-21 14:35:12,631 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-21 14:35:12,632 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-21 14:35:12,632 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-21 14:35:12,632 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-21 14:35:12,632 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-21 14:35:12,632 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-21 14:35:12,632 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-21 14:35:12,632 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-21 14:35:12,632 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-21 14:35:12,633 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-21 14:35:13,125 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-21 14:35:13,285 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-21 14:35:13,443 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-21 14:35:13,612 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-21 14:35:13,613 - INFO - Entering main function
+2024-10-21 14:35:13,671 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-21 14:35:13,671 - INFO - Конфигурацията е заредена успешно.
+2024-10-21 14:35:13,671 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T16:49:09.329903'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-17T15:51:40.071757'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-18T17:05:02.309178'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-14T16:50:56.964554'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:07:42.502764'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:39.144379'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-18T17:40:36.912675'}]
+2024-10-21 14:35:20,054 - INFO - Inside start_watching function
+2024-10-21 14:35:20,054 - INFO - Starting watching...
+2024-10-21 14:35:20,054 - INFO - Watcher is None: True
+2024-10-21 14:35:20,054 - INFO - Методът start_watching е извикан
+2024-10-21 14:35:20,057 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 14:35:20,264 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-21 14:35:22,686 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 14:35:22.686143
+2024-10-21 14:35:22,686 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 14:35:22.686143
+2024-10-21 14:35:22,688 - INFO - Notification - Title: Observer Started, Message: Observer started for C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:35:22,888 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-21 14:35:22,890 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 14:35:22.890713
+2024-10-21 14:35:22,890 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 14:35:22.890713
+2024-10-21 14:35:22,892 - INFO - Watching started successfully
+2024-10-21 14:38:25,116 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_CITAT.mp3
+2024-10-21 14:38:25,116 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_CITAT.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 14:38:25,117 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:38:25,117 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_CITAT.mp3
+2024-10-21 14:38:25,318 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 584
+2024-10-21 14:42:22,944 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\2024-10-17-19-00.mp3
+2024-10-21 14:42:22,944 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\2024-10-17-19-00.mp3 in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:42:22,945 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:42:22,945 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\2024-10-17-19-00.mp3
+2024-10-21 14:42:23,151 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 576
+2024-10-21 14:43:22,957 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\DSD_21,10,2024_UROK_Ivanka.wav
+2024-10-21 14:43:22,958 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\DSD_21,10,2024_UROK_Ivanka.wav in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:43:22,958 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:43:22,958 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\DSD_21,10,2024_UROK_Ivanka.wav
+2024-10-21 14:43:23,157 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 586
+2024-10-21 14:44:22,958 - INFO - New file detected: C:\Users\Studio3\Desktop\Rabotni\DSD_21,10,2024_CITAT.wav
+2024-10-21 14:44:22,958 - INFO - New file created at C:\Users\Studio3\Desktop\Rabotni\DSD_21,10,2024_CITAT.wav in C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:44:22,959 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 14:44:22,959 - INFO - Notification - Title: new File Detected, Message: New file created in C:\Users\Studio3\Desktop\Rabotni\DSD_21,10,2024_CITAT.wav
+2024-10-21 14:44:23,165 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 580
+2024-10-21 14:45:00,203 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for C:\Users\Studio3\Desktop\Rabotni
+2024-10-21 14:45:00,401 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-21 14:45:00,406 - INFO - Observer stopped for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-21 14:45:00.406840
+2024-10-21 15:08:49,731 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_IVANOV_ELENA.mp3
+2024-10-21 15:08:49,731 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_IVANOV_ELENA.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 15:08:49,731 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 15:08:49,732 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_IVANOV_ELENA.mp3
+2024-10-21 15:08:49,733 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-21 15:08:50,386 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 591
+2024-10-21 15:11:52,150 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_IVANOV_ELENA.wav
+2024-10-21 15:11:52,150 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_IVANOV_ELENA.wav in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 15:11:52,150 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 15:11:52,150 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_IVANOV_ELENA.wav
+2024-10-21 15:11:52,352 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 591
+2024-10-21 15:17:56,925 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_ZELENO_TONY.mp3
+2024-10-21 15:17:56,925 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_ZELENO_TONY.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 15:17:56,926 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 15:17:56,926 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_ZELENO_TONY.mp3
+2024-10-21 15:17:57,126 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 590
+2024-10-21 15:27:04,038 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_TANIA_PETKOVA.mp3
+2024-10-21 15:27:04,038 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_TANIA_PETKOVA.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 15:27:04,039 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 15:27:04,039 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_TANIA_PETKOVA.mp3
+2024-10-21 15:27:04,240 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 592
+2024-10-21 16:00:00,000 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN
+2024-10-21 16:00:00,001 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-21 16:00:00,543 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 559
+2024-10-21 16:00:01,392 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN at 2024-10-21 16:00:01.392958
+2024-10-21 16:00:01,392 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN at 2024-10-21 16:00:01.392958
+2024-10-21 16:00:01,392 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-21 16:00:01,597 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-21 16:00:05,858 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-21 16:00:05.858038
+2024-10-21 16:00:05,858 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-21 16:00:05.858038
+2024-10-21 16:15:00,001 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 16:15:00,002 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-21 16:15:00,543 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 556
+2024-10-21 16:15:05,680 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-10-21 16:15:05.680485
+2024-10-21 16:15:05,680 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-10-21 16:15:05.680485
+2024-10-21 16:20:04,830 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN\VS_22,10,2024_KANEVA.mp3
+2024-10-21 16:20:04,831 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN\VS_22,10,2024_KANEVA.mp3 in //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN
+2024-10-21 16:20:04,831 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:20:04,831 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN\VS_22,10,2024_KANEVA.mp3
+2024-10-21 16:20:05,080 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 585
+2024-10-21 16:20:05,082 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN\VS_22,10,2024_VELIKOVA_1.mp3
+2024-10-21 16:20:05,082 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN\VS_22,10,2024_VELIKOVA_1.mp3 in //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN
+2024-10-21 16:20:05,082 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:20:05,082 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN\VS_22,10,2024_VELIKOVA_1.mp3
+2024-10-21 16:20:05,288 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 589
+2024-10-21 16:20:05,290 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN\VS_22,10,2024_VELIKOVA_2.mp3
+2024-10-21 16:20:05,290 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN\VS_22,10,2024_VELIKOVA_2.mp3 in //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN
+2024-10-21 16:20:05,290 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:20:05,290 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN\VS_22,10,2024_VELIKOVA_2.mp3
+2024-10-21 16:20:05,486 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 589
+2024-10-21 16:30:00,000 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 16:30:00,204 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-21 16:30:02,724 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/20,00 at 2024-10-21 16:30:02.724285
+2024-10-21 16:30:02,724 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/20,00 at 2024-10-21 16:30:02.724285
+2024-10-21 16:30:02,725 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-21 16:30:02,930 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-21 16:30:05,531 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/19,00 at 2024-10-21 16:30:05.531468
+2024-10-21 16:30:05,532 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/19,00 at 2024-10-21 16:30:05.532121
+2024-10-21 16:30:18,928 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_SIONII_JT.mp3
+2024-10-21 16:30:18,928 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_SIONII_JT.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 16:30:18,929 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:30:18,929 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_SIONII_JT.mp3
+2024-10-21 16:30:19,137 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 585
+2024-10-21 16:33:18,527 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 16:33:18,528 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17H_ARHEOLOGIA_DIMITAR.mp3 in //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-21 16:33:18,528 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:33:18,528 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 16:33:18,733 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 596
+2024-10-21 16:35:23,561 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\Vol\TD_22,10,2024_MERDJANOV_JT.mp3
+2024-10-21 16:35:23,561 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\Vol\TD_22,10,2024_MERDJANOV_JT.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 16:35:23,561 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:35:23,561 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\Vol\TD_22,10,2024_MERDJANOV_JT.mp3
+2024-10-21 16:35:23,782 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 591
+2024-10-21 16:35:23,783 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17h_IZBORI_ANTONIA.mp3
+2024-10-21 16:35:23,784 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17h_IZBORI_ANTONIA.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 16:35:23,784 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:35:23,784 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17h_IZBORI_ANTONIA.mp3
+2024-10-21 16:35:24,000 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 594
+2024-10-21 16:35:24,002 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17h_PREGLEDI_ELENA.mp3
+2024-10-21 16:35:24,002 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17h_PREGLEDI_ELENA.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 16:35:24,002 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:35:24,002 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17h_PREGLEDI_ELENA.mp3
+2024-10-21 16:35:24,199 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 594
+2024-10-21 16:35:24,200 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_MERDJANOV_JT.mp3
+2024-10-21 16:35:24,200 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_MERDJANOV_JT.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 16:35:24,201 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:35:24,201 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_MERDJANOV_JT.mp3
+2024-10-21 16:35:24,398 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 588
+2024-10-21 16:39:09,593 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 16:39:09,593 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_ARHEOLOGIA_DIMITAR.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 16:39:09,593 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:39:09,594 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 16:39:09,789 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 596
+2024-10-21 16:39:13,281 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 16:39:13,281 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_ARHEOLOGIA_DIMITAR.mp3 in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-21 16:39:13,282 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:39:13,282 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 16:39:13,485 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 596
+2024-10-21 16:39:44,610 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17H_IZMAMI_POLA.mp3
+2024-10-21 16:39:44,610 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17H_IZMAMI_POLA.mp3 in //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-21 16:39:44,610 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:39:44,610 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17H_IZMAMI_POLA.mp3
+2024-10-21 16:39:44,825 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 589
+2024-10-21 16:40:27,970 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_STEFAN_IVANOV_VESI.mp3
+2024-10-21 16:40:27,970 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_STEFAN_IVANOV_VESI.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 16:40:27,971 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:40:27,971 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_STEFAN_IVANOV_VESI.mp3
+2024-10-21 16:40:28,176 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 594
+2024-10-21 16:40:48,869 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17H_IZMAMI_POLA.pk
+2024-10-21 16:40:48,869 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17H_IZMAMI_POLA.pk in //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-21 16:40:48,870 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:40:48,870 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17H_IZMAMI_POLA.pk
+2024-10-21 16:40:49,070 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 588
+2024-10-21 16:41:52,960 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17h_ZELENO_TONY.mp3
+2024-10-21 16:41:52,960 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17h_ZELENO_TONY.mp3 in //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-21 16:41:52,960 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:41:52,960 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_17h_ZELENO_TONY.mp3
+2024-10-21 16:41:53,238 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 589
+2024-10-21 16:41:53,240 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_SMOLAN_RADOST.mp3
+2024-10-21 16:41:53,240 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_SMOLAN_RADOST.mp3 in //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-21 16:41:53,240 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:41:53,240 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/17,00\N_21,10,2024_SMOLAN_RADOST.mp3
+2024-10-21 16:41:53,444 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 585
+2024-10-21 16:42:11,903 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_19-20h_IZMAMI_POLA.mp3
+2024-10-21 16:42:11,904 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_19-20h_IZMAMI_POLA.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 16:42:11,904 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:42:11,904 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_19-20h_IZMAMI_POLA.mp3
+2024-10-21 16:42:12,111 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 592
+2024-10-21 16:42:15,738 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19-20h_IZMAMI_POLA.mp3
+2024-10-21 16:42:15,738 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19-20h_IZMAMI_POLA.mp3 in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-21 16:42:15,738 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:42:15,738 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19-20h_IZMAMI_POLA.mp3
+2024-10-21 16:42:15,961 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 592
+2024-10-21 16:43:04,955 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_IVANOV_ELENA.pk
+2024-10-21 16:43:04,955 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_IVANOV_ELENA.pk in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 16:43:04,956 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:43:04,956 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_21,10,2024_IVANOV_ELENA.pk
+2024-10-21 16:43:05,166 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 590
+2024-10-21 16:48:16,658 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_SMOLAN_RADOST.mp3
+2024-10-21 16:48:16,658 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_SMOLAN_RADOST.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 16:48:16,659 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:48:16,659 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_SMOLAN_RADOST.mp3
+2024-10-21 16:48:16,861 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 591
+2024-10-21 16:48:20,576 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_SMOLAN_RADOST.mp3
+2024-10-21 16:48:20,576 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_SMOLAN_RADOST.mp3 in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-21 16:48:20,577 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:48:20,577 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_SMOLAN_RADOST.mp3
+2024-10-21 16:48:20,866 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 591
+2024-10-21 16:48:20,868 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\NEWS.docx
+2024-10-21 16:48:20,868 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\NEWS.docx in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-21 16:48:20,869 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:48:20,869 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\NEWS.docx
+2024-10-21 16:48:21,075 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 566
+2024-10-21 16:51:23,020 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_SMOLAN_RADOST.mp3
+2024-10-21 16:51:23,020 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_SMOLAN_RADOST.mp3 in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-21 16:51:23,020 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:51:23,020 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_SMOLAN_RADOST.mp3
+2024-10-21 16:51:23,221 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 591
+2024-10-21 16:54:25,373 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_SMOLAN_RADOST.mp3
+2024-10-21 16:54:25,373 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_SMOLAN_RADOST.mp3 in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-21 16:54:25,374 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:54:25,374 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19H_SMOLAN_RADOST.mp3
+2024-10-21 16:54:25,583 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 589
+2024-10-21 16:55:02,629 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-21 16:55:02,826 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-21 16:55:02,831 - INFO - Observer stopped for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-21 16:55:02.831047
+2024-10-21 16:55:40,671 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17h_ZELENO_TONY.mp3
+2024-10-21 16:55:40,671 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17h_ZELENO_TONY.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 16:55:40,672 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:55:40,672 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17h_ZELENO_TONY.mp3
+2024-10-21 16:55:40,877 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 591
+2024-10-21 16:55:40,879 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 16:55:40,879 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17H_ARHEOLOGIA_DIMITAR.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 16:55:40,880 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 16:55:40,880 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_17H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 16:55:41,092 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 598
+2024-10-21 17:03:00,003 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-21 17:03:00,218 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 553
+2024-10-21 17:03:00,225 - INFO - Observer stopped for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-21 17:03:00.225126
+2024-10-21 17:03:27,742 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20h_ZELENO_TONY.mp3
+2024-10-21 17:03:27,742 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20h_ZELENO_TONY.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 17:03:27,742 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 17:03:27,742 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20h_ZELENO_TONY.mp3
+2024-10-21 17:03:27,946 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 589
+2024-10-21 17:03:32,544 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19h_ZELENO_TONY.mp3
+2024-10-21 17:03:32,544 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19h_ZELENO_TONY.mp3 in //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-21 17:03:32,545 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 17:03:32,545 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/19,00\N_21,10,2024_19h_ZELENO_TONY.mp3
+2024-10-21 17:03:32,757 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 589
+2024-10-21 17:05:49,209 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_SMEISTVO_22.mp3
+2024-10-21 17:05:49,209 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_SMEISTVO_22.mp3 in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 17:05:49,209 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 17:05:49,209 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES\TD_22,10,2024_SMEISTVO_22.mp3
+2024-10-21 17:05:49,420 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 587
+2024-10-21 17:06:30,178 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 17:06:30,178 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_ARHEOLOGIA_DIMITAR.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 17:06:30,179 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 17:06:30,179 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 17:06:30,378 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 596
+2024-10-21 17:06:30,379 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20h_ZELENO_TONY.mp3
+2024-10-21 17:06:30,379 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20h_ZELENO_TONY.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 17:06:30,380 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 17:06:30,380 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20h_ZELENO_TONY.mp3
+2024-10-21 17:06:30,594 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 589
+2024-10-21 17:09:32,368 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 17:09:32,368 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_ARHEOLOGIA_DIMITAR.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 17:09:32,369 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 17:09:32,369 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20H_ARHEOLOGIA_DIMITAR.mp3
+2024-10-21 17:09:32,568 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 596
+2024-10-21 17:09:32,569 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20h_ZELENO_TONY.mp3
+2024-10-21 17:09:32,569 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20h_ZELENO_TONY.mp3 in //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 17:09:32,570 - INFO - Конфигурацията е запазена успешно.
+2024-10-21 17:09:32,570 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/20,00\N_21,10,2024_20h_ZELENO_TONY.mp3
+2024-10-21 17:09:32,767 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 587
+2024-10-21 17:15:00,000 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN
+2024-10-21 17:15:00,207 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 559
+2024-10-21 17:15:00,211 - INFO - Observer stopped for: //192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN at 2024-10-21 17:15:00.210705
+2024-10-21 18:00:00,001 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-21 18:00:00,002 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-21 18:00:00,538 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 556
+2024-10-21 18:00:00,543 - INFO - Observer stopped for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-10-21 18:00:00.543679
+2024-10-21 18:30:00,001 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-21 18:30:00,002 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-21 18:30:00,529 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-21 18:30:00,533 - INFO - Observer stopped for: //192.168.33.20/NeWS/NEWS TODAY/20,00 at 2024-10-21 18:30:00.533781
+2024-10-21 18:30:00,533 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for //192.168.33.20/NeWS/NEWS TODAY/19,00
+2024-10-21 18:30:00,733 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-21 18:30:00,736 - INFO - Observer stopped for: //192.168.33.20/NeWS/NEWS TODAY/19,00 at 2024-10-21 18:30:00.736130
+2024-10-22 11:41:50,635 - INFO - Stopping watching...
+2024-10-22 11:41:50,635 - INFO - Watching stopped successfully
+2024-10-22 11:41:52,851 - INFO - Inside start_watching function
+2024-10-22 11:41:52,851 - INFO - Starting watching...
+2024-10-22 11:41:52,851 - INFO - Watcher is None: True
+2024-10-22 11:41:52,851 - INFO - Методът start_watching е извикан
+2024-10-22 11:41:52,853 - INFO - Watching started successfully
+2024-10-22 11:42:26,687 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-22 11:42:26,687 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-22 11:42:26,687 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-22 11:42:26,687 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-22 11:42:26,687 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-22 11:42:26,687 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-22 11:42:26,688 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-22 11:42:26,688 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-22 11:42:26,688 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-22 11:42:26,688 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-22 11:42:26,688 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-22 11:42:26,689 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-22 11:42:27,270 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-22 11:42:27,432 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-22 11:42:27,595 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-22 11:42:27,754 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-22 11:42:27,755 - INFO - Entering main function
+2024-10-22 11:42:28,230 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-22 11:42:28,237 - INFO - Конфигурацията е заредена успешно.
+2024-10-22 11:42:28,237 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:41:53.240407'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:43:04.955730'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
+2024-10-22 11:42:42,843 - INFO - Inside start_watching function
+2024-10-22 11:42:42,843 - INFO - Starting watching...
+2024-10-22 11:42:42,843 - INFO - Watcher is None: True
+2024-10-22 11:42:42,843 - INFO - Методът start_watching е извикан
+2024-10-22 11:42:42,861 - INFO - Watching started successfully
+2024-10-22 14:00:53,105 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-22 14:00:53,117 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-22 14:00:53,117 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-22 14:00:53,117 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-22 14:00:53,117 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-22 14:00:53,117 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-22 14:00:53,117 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-22 14:00:53,117 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-22 14:00:53,118 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-22 14:00:53,118 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-22 14:00:53,131 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-22 14:00:53,133 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-22 14:00:53,723 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-22 14:00:53,892 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-22 14:00:54,062 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-22 14:00:54,233 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-22 14:00:54,235 - INFO - Entering main function
+2024-10-22 14:00:54,945 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-22 14:00:54,955 - INFO - Конфигурацията е заредена успешно.
+2024-10-22 14:00:54,956 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:41:53.240407'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:43:04.955730'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
+2024-10-22 14:01:07,573 - INFO - Inside start_watching function
+2024-10-22 14:01:07,573 - INFO - Starting watching...
+2024-10-22 14:01:07,574 - INFO - Watcher is None: True
+2024-10-22 14:01:07,574 - INFO - Методът start_watching е извикан
+2024-10-22 14:01:07,598 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 14:01:07,802 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-22 14:01:21,735 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-22 14:01:21.735696
+2024-10-22 14:01:21,736 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-22 14:01:21.736696
+2024-10-22 14:01:21,738 - INFO - Notification - Title: Observer Started, Message: Observer started for C:\Users\Studio3\Desktop\Rabotni
+2024-10-22 14:01:21,976 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-22 14:01:21,979 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-22 14:01:21.979557
+2024-10-22 14:01:21,980 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-22 14:01:21.980557
+2024-10-22 14:01:21,984 - INFO - Watching started successfully
+2024-10-22 14:16:55,762 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-22 14:16:55,782 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-22 14:16:55,784 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-22 14:16:56,297 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-22 14:16:56,466 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-22 14:16:56,669 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-22 14:16:56,831 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-22 14:16:56,832 - INFO - Entering main function
+2024-10-22 14:16:57,382 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-22 14:16:57,392 - INFO - Конфигурацията е заредена успешно.
+2024-10-22 14:16:57,393 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:41:53.240407'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:43:04.955730'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
+2024-10-22 14:18:43,683 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-22 14:18:43,683 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-22 14:18:43,683 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-22 14:18:43,683 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-22 14:18:43,684 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-22 14:18:43,684 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-22 14:18:43,684 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-22 14:18:43,684 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-22 14:18:43,684 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-22 14:18:43,684 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-22 14:18:43,684 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-22 14:18:43,686 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-22 14:18:44,155 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-22 14:18:44,321 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-22 14:18:44,494 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-22 14:18:44,659 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-22 14:18:44,661 - INFO - Entering main function
+2024-10-22 14:18:44,735 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-22 14:18:44,735 - INFO - Конфигурацията е заредена успешно.
+2024-10-22 14:18:44,736 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:41:53.240407'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:43:04.955730'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
+2024-10-22 14:20:01,611 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-22 14:20:01,611 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-22 14:20:01,611 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-22 14:20:01,611 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-22 14:20:01,611 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-22 14:20:01,611 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-22 14:20:01,612 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-22 14:20:01,612 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-22 14:20:01,612 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-22 14:20:01,612 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-22 14:20:01,612 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-22 14:20:01,615 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-22 14:20:02,075 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-22 14:20:02,247 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-22 14:20:02,405 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-22 14:20:02,568 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-22 14:20:02,570 - INFO - Entering main function
+2024-10-22 14:20:02,640 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-22 14:20:02,640 - INFO - Конфигурацията е заредена успешно.
+2024-10-22 14:20:02,641 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:41:53.240407'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:43:04.955730'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
+2024-10-22 14:24:08,684 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-22 14:24:08,684 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-22 14:24:08,684 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-22 14:24:08,684 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-22 14:24:08,684 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-22 14:24:08,684 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-22 14:24:08,685 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-22 14:24:08,685 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-22 14:24:08,685 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-22 14:24:08,685 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-22 14:24:08,685 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-22 14:24:08,687 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-22 14:24:09,191 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-22 14:24:09,356 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-22 14:24:09,522 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-22 14:24:09,684 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-22 14:24:09,688 - INFO - Entering main function
+2024-10-22 14:24:09,763 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-22 14:24:09,763 - INFO - Конфигурацията е заредена успешно.
+2024-10-22 14:24:09,763 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:41:53.240407'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:43:04.955730'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
+2024-10-22 14:30:30,292 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-22 14:30:30,292 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-22 14:30:30,293 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-22 14:30:30,293 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-22 14:30:30,293 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-22 14:30:30,293 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-22 14:30:30,293 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-22 14:30:30,293 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-22 14:30:30,293 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-22 14:30:30,293 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-22 14:30:30,294 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-22 14:30:30,297 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-22 14:30:30,802 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-22 14:30:30,967 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-22 14:30:31,129 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-22 14:30:31,293 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-22 14:30:31,295 - INFO - Entering main function
+2024-10-22 14:30:31,368 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-22 14:30:31,369 - INFO - Конфигурацията е заредена успешно.
+2024-10-22 14:30:31,369 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:41:53.240407'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:43:04.955730'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
+2024-10-22 14:32:02,138 - INFO - Inside start_watching function
+2024-10-22 14:32:02,138 - INFO - Starting watching...
+2024-10-22 14:32:02,138 - INFO - Watcher is None: True
+2024-10-22 14:32:02,138 - INFO - Методът start_watching е извикан
+2024-10-22 14:32:02,169 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 14:32:02,372 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 558
+2024-10-22 14:32:27,050 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-22 14:32:27.050911
+2024-10-22 14:32:27,050 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-22 14:32:27.050911
+2024-10-22 14:32:27,057 - INFO - Notification - Title: Observer Started, Message: Observer started for C:\Users\Studio3\Desktop\Rabotni
+2024-10-22 14:32:27,266 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-22 14:32:27,279 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-22 14:32:27.279780
+2024-10-22 14:32:27,280 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-22 14:32:27.280779
+2024-10-22 14:32:27,288 - INFO - Watching started successfully
+2024-10-22 14:32:36,216 - INFO - Stopping watching...
+2024-10-22 14:32:36,217 - INFO - Спряно наблюдение на директория: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 14:32:36,217 - INFO - Спряно наблюдение на директория: C:\Users\Studio3\Desktop\Rabotni
+2024-10-22 14:32:36,218 - INFO - Watching stopped successfully
+2024-10-22 14:37:16,346 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-22 14:37:16,346 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-22 14:37:16,346 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-22 14:37:16,346 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-22 14:37:16,347 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-22 14:37:16,347 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-22 14:37:16,347 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-22 14:37:16,347 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-22 14:37:16,347 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-22 14:37:16,347 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-22 14:37:16,347 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-22 14:37:16,348 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-22 14:37:16,860 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-22 14:37:17,027 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-22 14:37:17,187 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-22 14:37:17,351 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-22 14:37:17,352 - INFO - Entering main function
+2024-10-22 14:37:17,412 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-22 14:37:17,413 - INFO - Конфигурацията е заредена успешно.
+2024-10-22 14:37:17,413 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:41:53.240407'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:43:04.955730'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
+2024-10-22 14:38:12,175 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-22 14:38:12,175 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-22 14:38:12,175 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-22 14:38:12,175 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-22 14:38:12,175 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-22 14:38:12,175 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-22 14:38:12,176 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-22 14:38:12,176 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-22 14:38:12,176 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-22 14:38:12,176 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-22 14:38:12,176 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-22 14:38:12,177 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-22 14:38:12,640 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-22 14:38:12,802 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-22 14:38:12,973 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-22 14:38:13,129 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-22 14:38:13,131 - INFO - Entering main function
+2024-10-22 14:38:13,289 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-22 14:38:13,289 - INFO - Конфигурацията е заредена успешно.
+2024-10-22 14:38:13,289 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:41:53.240407'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T16:43:04.955730'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
+2024-10-22 14:39:32,217 - INFO - Inside start_watching function
+2024-10-22 14:39:32,217 - INFO - Starting watching...
+2024-10-22 14:39:32,217 - INFO - Watcher is None: True
+2024-10-22 14:39:32,217 - INFO - Методът start_watching е извикан
+2024-10-22 14:39:32,221 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 14:39:32,455 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-22 14:39:34,748 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-22 14:39:34.748460
+2024-10-22 14:39:34,748 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN at 2024-10-22 14:39:34.748460
+2024-10-22 14:39:34,750 - INFO - Notification - Title: Observer Started, Message: Observer started for C:\Users\Studio3\Desktop\Rabotni
+2024-10-22 14:39:34,948 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-22 14:39:34,950 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-22 14:39:34.950868
+2024-10-22 14:39:34,950 - INFO - Observer started for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-22 14:39:34.950868
+2024-10-22 14:39:34,952 - INFO - Watching started successfully
+2024-10-22 14:45:00,201 - INFO - Notification - Title: Observer Stopped, Message: Observer stopped for C:\Users\Studio3\Desktop\Rabotni
+2024-10-22 14:45:00,400 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 554
+2024-10-22 14:45:00,413 - INFO - Observer stopped for: C:\Users\Studio3\Desktop\Rabotni at 2024-10-22 14:45:00.413786
+2024-10-22 15:28:13,158 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_PETKO_ANGELOV_3.mp3
+2024-10-22 15:28:13,158 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_PETKO_ANGELOV_3.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 15:28:19,806 - INFO - Конфигурацията е запазена успешно.
+2024-10-22 15:28:19,806 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_PETKO_ANGELOV_3.mp3
+2024-10-22 15:28:19,807 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-22 15:28:20,332 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 594
+2024-10-22 15:28:20,334 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_IVAN_STOINAOV_4.mp3
+2024-10-22 15:28:20,334 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_IVAN_STOINAOV_4.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 15:28:20,439 - INFO - Конфигурацията е запазена успешно.
+2024-10-22 15:28:20,439 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_IVAN_STOINAOV_4.mp3
+2024-10-22 15:28:20,636 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 594
+2024-10-22 15:28:20,638 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_IVAN_STOINAOV_1.mp3
+2024-10-22 15:28:20,638 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_IVAN_STOINAOV_1.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 15:28:20,639 - INFO - Конфигурацията е запазена успешно.
+2024-10-22 15:28:20,639 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_IVAN_STOINAOV_1.mp3
+2024-10-22 15:28:20,850 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 594
+2024-10-22 15:28:20,851 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_ANGEL_SLAVOV_2.mp3
+2024-10-22 15:28:20,851 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_ANGEL_SLAVOV_2.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 15:28:20,852 - INFO - Конфигурацията е запазена успешно.
+2024-10-22 15:28:20,852 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_ANGEL_SLAVOV_2.mp3
+2024-10-22 15:28:21,045 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 591
+2024-10-22 15:31:15,581 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_FARMACEVTI_YANITSA.mp3
+2024-10-22 15:31:15,581 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_FARMACEVTI_YANITSA.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 15:31:15,582 - INFO - Конфигурацията е запазена успешно.
+2024-10-22 15:31:15,582 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_FARMACEVTI_YANITSA.mp3
+2024-10-22 15:31:15,822 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 597
+2024-10-22 15:46:27,407 - INFO - New file detected: //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_MANASTIR_DANI.mp3
+2024-10-22 15:46:27,407 - INFO - New file created at //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_MANASTIR_DANI.mp3 in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN
+2024-10-22 15:46:27,407 - INFO - Конфигурацията е запазена успешно.
+2024-10-22 15:46:27,407 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN\DSD_22,10,2024_MANASTIR_DANI.mp3
+2024-10-22 15:46:27,408 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-22 15:46:27,941 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 592
+2024-10-22 16:00:00,003 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-22 16:00:00,004 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-22 16:00:00,518 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-22 16:00:04,669 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-22 16:00:04.669315
+2024-10-22 16:00:04,669 - INFO - Observer started for: //192.168.33.20/NeWS/NEWS TODAY/17,00 at 2024-10-22 16:00:04.669315
+2024-10-22 16:09:41,978 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/17,00\N_22,10,2024_TROTINETKI_NEVENA.mp3
+2024-10-22 16:09:41,978 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/17,00\N_22,10,2024_TROTINETKI_NEVENA.mp3 in //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-22 16:09:41,979 - INFO - Конфигурацията е запазена успешно.
+2024-10-22 16:09:41,979 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/17,00\N_22,10,2024_TROTINETKI_NEVENA.mp3
+2024-10-22 16:09:42,176 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 591
+2024-10-22 16:11:50,525 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/17,00\N_22,10,2024_17H_JILISHTA_RADOST.mp3
+2024-10-22 16:11:50,525 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/17,00\N_22,10,2024_17H_JILISHTA_RADOST.mp3 in //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-22 16:11:50,526 - INFO - Конфигурацията е запазена успешно.
+2024-10-22 16:11:50,526 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/17,00\N_22,10,2024_17H_JILISHTA_RADOST.mp3
+2024-10-22 16:11:50,723 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 593
+2024-10-22 16:15:00,002 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES
+2024-10-22 16:15:00,203 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 556
+2024-10-22 16:15:04,851 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-10-22 16:15:04.851817
+2024-10-22 16:15:04,851 - INFO - Observer started for: //192.168.33.20/ZaPisi_EfiR/TO4NO_DNES at 2024-10-22 16:15:04.851817
+2024-10-22 16:30:00,001 - INFO - Notification - Title: Observer Started, Message: Observer started for //192.168.33.20/NeWS/NEWS TODAY/20,00
+2024-10-22 16:30:00,002 - DEBUG - Resetting dropped connection: api.pushbullet.com
+2024-10-22 16:30:00,532 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 555
+2024-10-22 16:30:00,557 - INFO - New file detected: //192.168.33.20/NeWS/NEWS TODAY/17,00\N_22,10,2024_17h_PATRIARH _DANI.mp3
+2024-10-22 16:30:00,557 - INFO - New file created at //192.168.33.20/NeWS/NEWS TODAY/17,00\N_22,10,2024_17h_PATRIARH _DANI.mp3 in //192.168.33.20/NeWS/NEWS TODAY/17,00
+2024-10-22 16:30:00,558 - INFO - Конфигурацията е запазена успешно.
+2024-10-22 16:30:00,558 - INFO - Notification - Title: new File Detected, Message: New file created in //192.168.33.20/NeWS/NEWS TODAY/17,00\N_22,10,2024_17h_PATRIARH _DANI.mp3
+2024-10-22 16:30:00,761 - DEBUG - https://api.pushbullet.com:443 "POST /v2/pushes HTTP/11" 200 590
+2024-10-23 11:44:33,903 - WARNING - Python-dotenv could not parse statement starting at line 3
+2024-10-23 11:44:33,903 - WARNING - Python-dotenv could not parse statement starting at line 4
+2024-10-23 11:44:33,903 - WARNING - Python-dotenv could not parse statement starting at line 5
+2024-10-23 11:44:33,903 - WARNING - Python-dotenv could not parse statement starting at line 6
+2024-10-23 11:44:33,903 - WARNING - Python-dotenv could not parse statement starting at line 7
+2024-10-23 11:44:33,903 - WARNING - Python-dotenv could not parse statement starting at line 8
+2024-10-23 11:44:33,903 - WARNING - Python-dotenv could not parse statement starting at line 9
+2024-10-23 11:44:33,903 - WARNING - Python-dotenv could not parse statement starting at line 10
+2024-10-23 11:44:33,903 - WARNING - Python-dotenv could not parse statement starting at line 11
+2024-10-23 11:44:33,904 - WARNING - Python-dotenv could not parse statement starting at line 12
+2024-10-23 11:44:33,904 - WARNING - Python-dotenv could not parse statement starting at line 13
+2024-10-23 11:44:33,905 - DEBUG - Starting new HTTPS connection (1): api.pushbullet.com:443
+2024-10-23 11:44:34,574 - DEBUG - https://api.pushbullet.com:443 "GET /v2/devices HTTP/11" 200 None
+2024-10-23 11:44:34,878 - DEBUG - https://api.pushbullet.com:443 "GET /v2/chats HTTP/11" 200 160
+2024-10-23 11:44:35,036 - DEBUG - https://api.pushbullet.com:443 "GET /v2/users/me HTTP/11" 200 364
+2024-10-23 11:44:35,200 - DEBUG - https://api.pushbullet.com:443 "GET /v2/channels HTTP/11" 200 160
+2024-10-23 11:44:35,201 - INFO - Entering main function
+2024-10-23 11:44:35,716 - INFO - Опит за зареждане на конфигурацията от config.json
+2024-10-23 11:44:35,724 - INFO - Конфигурацията е заредена успешно.
+2024-10-23 11:44:35,724 - INFO - Directories loaded from config: [{'path': '//192.168.33.20/NeWS/NEWS TODAY/17,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:00', 'end_time': '17:03', 'interval': 60, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-22T16:30:00.558291'}, {'path': '//192.168.33.20/ZaPisi_EfiR/DEN_SLED_DEN', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '12:15', 'end_time': '16:55', 'interval': 180, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-22T15:46:27.407612'}, {'path': '//192.168.33.20/ZaPisi_EfiR/SHAKER', 'days': ['петък'], 'start_time': '16:15', 'end_time': '17:30', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-11T17:00:05.086803'}, {'path': '//192.168.33.20/ZaPisi_EfiR/TO4NO_DNES', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:15', 'end_time': '18:00', 'interval': 300, 'lastChecked': '1900-01-01T00:00:00', 'last_checked': '2024-10-21T17:05:49.209948'}, {'path': '//192.168.33.20/ZaPisi_EfiR/VHOD SVOBODEN', 'days': ['понеделник', ' вторник', ' сряда', ' четвъртък', ' петък'], 'start_time': '16:00', 'end_time': '17:15', 'interval': 300, 'last_checked': '2024-10-21T16:20:05.290028'}, {'path': 'C:\\Users\\Studio3\\Desktop\\Rabotni', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '11:55', 'end_time': '14:45', 'interval': 60, 'last_checked': '2024-10-21T14:44:22.958653'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/19,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:03:32.544676'}, {'path': '//192.168.33.20/NeWS/NEWS TODAY/20,00', 'days': ['понеделник', 'вторник', 'сряда', 'четвъртък', 'петък'], 'start_time': '16:30', 'end_time': '18:30', 'interval': 180, 'last_checked': '2024-10-21T17:09:32.570514'}]
