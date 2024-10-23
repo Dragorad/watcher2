@@ -9,7 +9,7 @@ class NotificationWindow:
         self.window.title("Notifications")
         
         # Настройване на фиксиран размер на прозореца (800x600 пиксела)
-        window_width = 800
+        window_width = 840
         window_height = 600
         self.window.geometry(f"{window_width}x{window_height}")
 
